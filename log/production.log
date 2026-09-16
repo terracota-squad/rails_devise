@@ -1,0 +1,1133 @@
+I, [2026-08-26T13:07:24.297373 #3350]  INFO -- : [8f5a7743-230f-4143-9b49-736756eb37c5] Started GET "/" for 127.0.0.1 at 2026-08-26 13:07:24 -0300
+I, [2026-08-26T13:07:24.300284 #3350]  INFO -- : [8f5a7743-230f-4143-9b49-736756eb37c5] Processing by PagesController#home as HTML
+I, [2026-08-26T13:07:24.315585 #3350]  INFO -- : [8f5a7743-230f-4143-9b49-736756eb37c5]   Rendered pages/home.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1325)
+I, [2026-08-26T13:07:24.331489 #3350]  INFO -- : [8f5a7743-230f-4143-9b49-736756eb37c5]   Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 3418)
+I, [2026-08-26T13:07:24.331808 #3350]  INFO -- : [8f5a7743-230f-4143-9b49-736756eb37c5] Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 4907)
+I, [2026-08-26T13:07:24.426774 #3350]  INFO -- : [31d28e57-825a-4af9-8ad0-0ea606ef28c5] Started GET "/assets/application-15929387fb984b53623b3c0890897a9dcb97440676f289dd33ac5e516f5a5e01.css" for 127.0.0.1 at 2026-08-26 13:07:24 -0300
+F, [2026-08-26T13:07:24.427689 #3350] FATAL -- : [31d28e57-825a-4af9-8ad0-0ea606ef28c5]   
+[31d28e57-825a-4af9-8ad0-0ea606ef28c5] ActionController::RoutingError (No route matches [GET] "/assets/application-15929387fb984b53623b3c0890897a9dcb97440676f289dd33ac5e516f5a5e01.css"):
+[31d28e57-825a-4af9-8ad0-0ea606ef28c5]   
+I, [2026-08-26T13:07:24.433293 #3350]  INFO -- : [18d12cc0-c64e-41aa-a916-4e804ef9c08e] Started GET "/assets/application-8b82235a1bcf70a8415eaa05ec47766a7b95648538477cc8aab616f54b32c056.js" for 127.0.0.1 at 2026-08-26 13:07:24 -0300
+F, [2026-08-26T13:07:24.434009 #3350] FATAL -- : [18d12cc0-c64e-41aa-a916-4e804ef9c08e]   
+[18d12cc0-c64e-41aa-a916-4e804ef9c08e] ActionController::RoutingError (No route matches [GET] "/assets/application-8b82235a1bcf70a8415eaa05ec47766a7b95648538477cc8aab616f54b32c056.js"):
+[18d12cc0-c64e-41aa-a916-4e804ef9c08e]   
+I, [2026-08-26T13:07:24.482381 #3350]  INFO -- : [7989202c-bf0f-440e-bdc9-a98fe53e6fe8] Started GET "/favicon.ico" for 127.0.0.1 at 2026-08-26 13:07:24 -0300
+F, [2026-08-26T13:07:24.483056 #3350] FATAL -- : [7989202c-bf0f-440e-bdc9-a98fe53e6fe8]   
+[7989202c-bf0f-440e-bdc9-a98fe53e6fe8] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[7989202c-bf0f-440e-bdc9-a98fe53e6fe8]   
+I, [2026-08-26T13:07:26.196741 #3350]  INFO -- : [c5b00159-f74e-4ca8-b1ad-8f49510b33eb] Started GET "/" for 127.0.0.1 at 2026-08-26 13:07:26 -0300
+I, [2026-08-26T13:07:26.198003 #3350]  INFO -- : [c5b00159-f74e-4ca8-b1ad-8f49510b33eb] Processing by PagesController#home as HTML
+I, [2026-08-26T13:07:26.201099 #3350]  INFO -- : [c5b00159-f74e-4ca8-b1ad-8f49510b33eb]   Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 526)
+I, [2026-08-26T13:07:26.205202 #3350]  INFO -- : [c5b00159-f74e-4ca8-b1ad-8f49510b33eb]   Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1322)
+I, [2026-08-26T13:07:26.205644 #3350]  INFO -- : [c5b00159-f74e-4ca8-b1ad-8f49510b33eb] Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 1620)
+I, [2026-08-26T13:07:26.221686 #3350]  INFO -- : [9fae6d40-a2d6-4c02-a00e-9ac98be8eb26] Started GET "/assets/application-15929387fb984b53623b3c0890897a9dcb97440676f289dd33ac5e516f5a5e01.css" for 127.0.0.1 at 2026-08-26 13:07:26 -0300
+F, [2026-08-26T13:07:26.223707 #3350] FATAL -- : [9fae6d40-a2d6-4c02-a00e-9ac98be8eb26]   
+[9fae6d40-a2d6-4c02-a00e-9ac98be8eb26] ActionController::RoutingError (No route matches [GET] "/assets/application-15929387fb984b53623b3c0890897a9dcb97440676f289dd33ac5e516f5a5e01.css"):
+[9fae6d40-a2d6-4c02-a00e-9ac98be8eb26]   
+I, [2026-08-26T13:07:26.227242 #3350]  INFO -- : [95b477cd-5f3e-4ade-aae3-95ce579ee611] Started GET "/assets/application-8b82235a1bcf70a8415eaa05ec47766a7b95648538477cc8aab616f54b32c056.js" for 127.0.0.1 at 2026-08-26 13:07:26 -0300
+F, [2026-08-26T13:07:26.228375 #3350] FATAL -- : [95b477cd-5f3e-4ade-aae3-95ce579ee611]   
+[95b477cd-5f3e-4ade-aae3-95ce579ee611] ActionController::RoutingError (No route matches [GET] "/assets/application-8b82235a1bcf70a8415eaa05ec47766a7b95648538477cc8aab616f54b32c056.js"):
+[95b477cd-5f3e-4ade-aae3-95ce579ee611]   
+I, [2026-08-26T13:07:48.297611 #4314]  INFO -- : [3b2b5546-c323-4cc9-b49b-f726449c9128] Started GET "/" for 127.0.0.1 at 2026-08-26 13:07:48 -0300
+I, [2026-08-26T13:07:48.301518 #4314]  INFO -- : [3b2b5546-c323-4cc9-b49b-f726449c9128] Processing by PagesController#home as HTML
+I, [2026-08-26T13:07:48.315690 #4314]  INFO -- : [3b2b5546-c323-4cc9-b49b-f726449c9128]   Rendered pages/home.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2092)
+I, [2026-08-26T13:07:48.322009 #4314]  INFO -- : [3b2b5546-c323-4cc9-b49b-f726449c9128]   Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4138)
+I, [2026-08-26T13:07:48.322536 #4314]  INFO -- : [3b2b5546-c323-4cc9-b49b-f726449c9128] Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5707)
+I, [2026-08-26T13:07:51.705469 #4314]  INFO -- : [823c0538-4a0d-468d-82a0-3ad1a8ec12a7] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-26 13:07:51 -0300
+I, [2026-08-26T13:07:51.707290 #4314]  INFO -- : [823c0538-4a0d-468d-82a0-3ad1a8ec12a7] Processing by Users::SessionsController#new as HTML
+I, [2026-08-26T13:07:51.735885 #4314]  INFO -- : [823c0538-4a0d-468d-82a0-3ad1a8ec12a7] Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 2710)
+F, [2026-08-26T13:07:51.736806 #4314] FATAL -- : [823c0538-4a0d-468d-82a0-3ad1a8ec12a7]   
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] ActiveRecord::ConnectionNotEstablished (connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+):
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7]   
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `public_send'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `new_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:704:in `checkout_new_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:683:in `try_to_checkout_new_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:639:in `acquire_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/connection_handling.rb:280:in `connection'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/model_schema.rb:582:in `load_schema!'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/attributes.rb:264:in `load_schema!'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/encryption/encryptable_record.rb:122:in `load_schema!'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/model_schema.rb:568:in `block in load_schema'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/model_schema.rb:565:in `synchronize'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/model_schema.rb:565:in `load_schema'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/model_schema.rb:431:in `attribute_types'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/inheritance.rb:60:in `new'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] devise (5.0.3) app/controllers/devise/sessions_controller.rb:11:in `new'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/abstract_controller/base.rb:215:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/rendering.rb:165:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] turbo-rails (2.0.12) lib/turbo-rails.rb:24:in `with_request_id'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] turbo-rails (2.0.12) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actiontext (7.0.10) lib/action_text/rendering.rb:20:in `with_renderer'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actiontext (7.0.10) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `instance_exec'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:138:in `run_callbacks'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/abstract_controller/callbacks.rb:233:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/rescue.rb:23:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `block in instrument'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `instrument'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activerecord (7.0.10) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/abstract_controller/base.rb:151:in `process'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionview (7.0.10) lib/action_view/rendering.rb:39:in `process'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal.rb:188:in `dispatch'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_controller/metal.rb:251:in `dispatch'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `each'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `serve'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:852:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] warden (1.2.9) lib/warden/manager.rb:34:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/tempfile_reaper.rb:15:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/etag.rb:27:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/conditional_get.rb:27:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/head.rb:12:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/http/content_security_policy.rb:39:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/session/abstract/id.rb:266:in `context'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/session/abstract/id.rb:260:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/callbacks.rb:99:in `run_callbacks'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] railties (7.0.10) lib/rails/rack/logger.rb:40:in `call_app'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] railties (7.0.10) lib/rails/rack/logger.rb:25:in `block in call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/tagged_logging.rb:37:in `tagged'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `tagged'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] railties (7.0.10) lib/rails/rack/logger.rb:25:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/method_override.rb:24:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/runtime.rb:22:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] rack (2.2.23) lib/rack/sendfile.rb:127:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] actionpack (7.0.10) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] railties (7.0.10) lib/rails/engine.rb:531:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/configuration.rb:305:in `call'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/response.rb:79:in `block in handle_request'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/thread_pool.rb:434:in `with_force_shutdown'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/response.rb:78:in `handle_request'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/server.rb:508:in `process_client'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/server.rb:263:in `block in run'
+[823c0538-4a0d-468d-82a0-3ad1a8ec12a7] puma (8.0.0) lib/puma/thread_pool.rb:246:in `block in spawn_thread'
+I, [2026-08-26T13:07:53.449886 #4314]  INFO -- : [d68f9eb8-4102-4766-abde-a6b1c3a143a6] Started GET "/" for 127.0.0.1 at 2026-08-26 13:07:53 -0300
+I, [2026-08-26T13:07:53.463774 #4314]  INFO -- : [d68f9eb8-4102-4766-abde-a6b1c3a143a6] Processing by PagesController#home as HTML
+I, [2026-08-26T13:07:53.472444 #4314]  INFO -- : [d68f9eb8-4102-4766-abde-a6b1c3a143a6]   Rendered pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 489)
+I, [2026-08-26T13:07:53.481061 #4314]  INFO -- : [d68f9eb8-4102-4766-abde-a6b1c3a143a6]   Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 1286)
+I, [2026-08-26T13:07:53.481526 #4314]  INFO -- : [d68f9eb8-4102-4766-abde-a6b1c3a143a6] Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 1559)
+I, [2026-08-26T13:10:22.519709 #5255]  INFO -- : Migrating to DeviseCreateUsers (20260424212653)
+I, [2026-08-26T13:10:22.555949 #5255]  INFO -- : Migrating to DeviseCreateAdmins (20260424212733)
+I, [2026-08-26T13:10:47.459956 #5537]  INFO -- : [99d56152-ed20-4435-8012-6e695f01b084] Started GET "/" for 127.0.0.1 at 2026-08-26 13:10:47 -0300
+I, [2026-08-26T13:10:47.463037 #5537]  INFO -- : [99d56152-ed20-4435-8012-6e695f01b084] Processing by PagesController#home as HTML
+I, [2026-08-26T13:10:47.474936 #5537]  INFO -- : [99d56152-ed20-4435-8012-6e695f01b084]   Rendered pages/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1431)
+I, [2026-08-26T13:10:47.479382 #5537]  INFO -- : [99d56152-ed20-4435-8012-6e695f01b084]   Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3443)
+I, [2026-08-26T13:10:47.479685 #5537]  INFO -- : [99d56152-ed20-4435-8012-6e695f01b084] Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 5035)
+I, [2026-08-26T13:10:47.809381 #5537]  INFO -- : [6d4a8f99-f08f-4e77-813f-2121dbd51d5d] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-26 13:10:47 -0300
+I, [2026-08-26T13:10:47.810191 #5537]  INFO -- : [6d4a8f99-f08f-4e77-813f-2121dbd51d5d] Processing by Users::SessionsController#new as HTML
+I, [2026-08-26T13:10:47.921291 #5537]  INFO -- : [6d4a8f99-f08f-4e77-813f-2121dbd51d5d]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 13.0ms | Allocations: 3556)
+I, [2026-08-26T13:10:47.924247 #5537]  INFO -- : [6d4a8f99-f08f-4e77-813f-2121dbd51d5d]   Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 4486)
+I, [2026-08-26T13:10:47.924655 #5537]  INFO -- : [6d4a8f99-f08f-4e77-813f-2121dbd51d5d] Completed 200 OK in 114ms (Views: 18.6ms | ActiveRecord: 31.0ms | Allocations: 16078)
+I, [2026-08-26T13:10:48.848542 #5537]  INFO -- : [7a5405ee-0e42-4aa3-b036-f0b0c8d1118a] Started GET "/" for 127.0.0.1 at 2026-08-26 13:10:48 -0300
+I, [2026-08-26T13:10:48.849437 #5537]  INFO -- : [7a5405ee-0e42-4aa3-b036-f0b0c8d1118a] Processing by PagesController#home as HTML
+I, [2026-08-26T13:10:48.868106 #5537]  INFO -- : [7a5405ee-0e42-4aa3-b036-f0b0c8d1118a]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 489)
+I, [2026-08-26T13:10:48.870117 #5537]  INFO -- : [7a5405ee-0e42-4aa3-b036-f0b0c8d1118a]   Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1286)
+I, [2026-08-26T13:10:48.870502 #5537]  INFO -- : [7a5405ee-0e42-4aa3-b036-f0b0c8d1118a] Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1564)
+I, [2026-08-26T13:10:50.123268 #5537]  INFO -- : [a707bf41-5da4-4c85-9c06-1c6c5b58db49] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-26 13:10:50 -0300
+I, [2026-08-26T13:10:50.124819 #5537]  INFO -- : [a707bf41-5da4-4c85-9c06-1c6c5b58db49] Processing by Users::SessionsController#new as HTML
+I, [2026-08-26T13:10:50.131789 #5537]  INFO -- : [a707bf41-5da4-4c85-9c06-1c6c5b58db49]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1617)
+I, [2026-08-26T13:10:50.134953 #5537]  INFO -- : [a707bf41-5da4-4c85-9c06-1c6c5b58db49]   Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2469)
+I, [2026-08-26T13:10:50.135267 #5537]  INFO -- : [a707bf41-5da4-4c85-9c06-1c6c5b58db49] Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3035)
+I, [2026-08-26T13:10:51.420673 #5537]  INFO -- : [501003e1-a836-4fc9-b6b3-bd4d8d3fea05] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-26 13:10:51 -0300
+I, [2026-08-26T13:10:51.421700 #5537]  INFO -- : [501003e1-a836-4fc9-b6b3-bd4d8d3fea05] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-26T13:10:51.439763 #5537]  INFO -- : [501003e1-a836-4fc9-b6b3-bd4d8d3fea05]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3343)
+I, [2026-08-26T13:10:51.441125 #5537]  INFO -- : [501003e1-a836-4fc9-b6b3-bd4d8d3fea05]   Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4264)
+I, [2026-08-26T13:10:51.441318 #5537]  INFO -- : [501003e1-a836-4fc9-b6b3-bd4d8d3fea05] Completed 200 OK in 20ms (Views: 9.4ms | ActiveRecord: 5.6ms | Allocations: 7463)
+I, [2026-08-26T13:10:52.082250 #5537]  INFO -- : [6e797bb1-8245-4ad8-a883-94630d27bf5e] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-26 13:10:52 -0300
+I, [2026-08-26T13:10:52.083249 #5537]  INFO -- : [6e797bb1-8245-4ad8-a883-94630d27bf5e] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-26T13:10:52.088320 #5537]  INFO -- : [6e797bb1-8245-4ad8-a883-94630d27bf5e]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1666)
+I, [2026-08-26T13:10:52.089440 #5537]  INFO -- : [6e797bb1-8245-4ad8-a883-94630d27bf5e]   Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2505)
+I, [2026-08-26T13:10:52.089601 #5537]  INFO -- : [6e797bb1-8245-4ad8-a883-94630d27bf5e] Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.6ms | Allocations: 3079)
+I, [2026-08-26T13:10:53.705097 #5537]  INFO -- : [28b60d93-9101-4ed0-a829-25c205b62ba5] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-26 13:10:53 -0300
+I, [2026-08-26T13:10:53.706320 #5537]  INFO -- : [28b60d93-9101-4ed0-a829-25c205b62ba5] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-26T13:10:53.716355 #5537]  INFO -- : [28b60d93-9101-4ed0-a829-25c205b62ba5]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2421)
+I, [2026-08-26T13:10:53.718518 #5537]  INFO -- : [28b60d93-9101-4ed0-a829-25c205b62ba5]   Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3342)
+I, [2026-08-26T13:10:53.719124 #5537]  INFO -- : [28b60d93-9101-4ed0-a829-25c205b62ba5] Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.7ms | Allocations: 4627)
+I, [2026-08-26T13:11:03.524680 #5537]  INFO -- : [1582a8a9-c162-4109-b31a-6ca392bcb49c] Started POST "/admins" for 127.0.0.1 at 2026-08-26 13:11:03 -0300
+I, [2026-08-26T13:11:03.525686 #5537]  INFO -- : [1582a8a9-c162-4109-b31a-6ca392bcb49c] Processing by Admins::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-26T13:11:03.525740 #5537]  INFO -- : [1582a8a9-c162-4109-b31a-6ca392bcb49c]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2026-08-26T13:11:03.851852 #5537]  INFO -- : [1582a8a9-c162-4109-b31a-6ca392bcb49c] Redirected to http://localhost:3002/
+I, [2026-08-26T13:11:03.851964 #5537]  INFO -- : [1582a8a9-c162-4109-b31a-6ca392bcb49c] Completed 303 See Other in 326ms (ActiveRecord: 20.8ms | Allocations: 3741)
+I, [2026-08-26T13:11:03.857163 #5537]  INFO -- : [2e66009d-1828-4952-9249-8afa8144a885] Started GET "/" for 127.0.0.1 at 2026-08-26 13:11:03 -0300
+I, [2026-08-26T13:11:03.857697 #5537]  INFO -- : [2e66009d-1828-4952-9249-8afa8144a885] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-26T13:11:03.863436 #5537]  INFO -- : [2e66009d-1828-4952-9249-8afa8144a885]   Rendered pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 981)
+I, [2026-08-26T13:11:03.865400 #5537]  INFO -- : [2e66009d-1828-4952-9249-8afa8144a885]   Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 1871)
+I, [2026-08-26T13:11:03.865619 #5537]  INFO -- : [2e66009d-1828-4952-9249-8afa8144a885] Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.4ms | Allocations: 2227)
+I, [2026-08-26T13:11:07.389416 #5537]  INFO -- : [d4b202dc-1e29-4a84-b7a6-f258eceb75c5] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-26 13:11:07 -0300
+I, [2026-08-26T13:11:07.390308 #5537]  INFO -- : [d4b202dc-1e29-4a84-b7a6-f258eceb75c5] Processing by PagesController#admin as HTML
+I, [2026-08-26T13:11:07.396607 #5537]  INFO -- : [d4b202dc-1e29-4a84-b7a6-f258eceb75c5]   Rendered pages/admin.html.erb within layouts/application (Duration: 2.9ms | Allocations: 899)
+I, [2026-08-26T13:11:07.398305 #5537]  INFO -- : [d4b202dc-1e29-4a84-b7a6-f258eceb75c5]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1787)
+I, [2026-08-26T13:11:07.398487 #5537]  INFO -- : [d4b202dc-1e29-4a84-b7a6-f258eceb75c5] Completed 200 OK in 8ms (Views: 4.1ms | ActiveRecord: 1.7ms | Allocations: 2534)
+I, [2026-08-26T13:11:07.841336 #5537]  INFO -- : [00bee732-3bc3-446e-a602-3774908c0c78] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-26 13:11:07 -0300
+I, [2026-08-26T13:11:07.841875 #5537]  INFO -- : [00bee732-3bc3-446e-a602-3774908c0c78] Processing by PagesController#users as HTML
+I, [2026-08-26T13:11:07.862725 #5537]  INFO -- : [00bee732-3bc3-446e-a602-3774908c0c78]   Rendered pages/users.html.erb within layouts/application (Duration: 17.5ms | Allocations: 746)
+I, [2026-08-26T13:11:07.864379 #5537]  INFO -- : [00bee732-3bc3-446e-a602-3774908c0c78]   Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 1578)
+I, [2026-08-26T13:11:07.864625 #5537]  INFO -- : [00bee732-3bc3-446e-a602-3774908c0c78] Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 0.8ms | Allocations: 2253)
+I, [2026-08-26T13:11:08.657186 #5537]  INFO -- : [8898e70c-0d0c-4212-a060-89842457871f] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-26 13:11:08 -0300
+I, [2026-08-26T13:11:08.658183 #5537]  INFO -- : [8898e70c-0d0c-4212-a060-89842457871f] Processing by PagesController#admin as HTML
+I, [2026-08-26T13:11:08.665609 #5537]  INFO -- : [8898e70c-0d0c-4212-a060-89842457871f]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.9ms | Allocations: 322)
+I, [2026-08-26T13:11:08.667589 #5537]  INFO -- : [8898e70c-0d0c-4212-a060-89842457871f]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1209)
+I, [2026-08-26T13:11:08.667846 #5537]  INFO -- : [8898e70c-0d0c-4212-a060-89842457871f] Completed 200 OK in 10ms (Views: 3.7ms | ActiveRecord: 2.4ms | Allocations: 1859)
+I, [2026-08-26T13:11:09.252175 #5537]  INFO -- : [49414b14-eb70-414f-8060-7c0601d0dd4c] Started GET "/" for 127.0.0.1 at 2026-08-26 13:11:09 -0300
+I, [2026-08-26T13:11:09.254326 #5537]  INFO -- : [49414b14-eb70-414f-8060-7c0601d0dd4c] Processing by PagesController#home as HTML
+I, [2026-08-26T13:11:09.259411 #5537]  INFO -- : [49414b14-eb70-414f-8060-7c0601d0dd4c]   Rendered pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 661)
+I, [2026-08-26T13:11:09.261629 #5537]  INFO -- : [49414b14-eb70-414f-8060-7c0601d0dd4c]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1492)
+I, [2026-08-26T13:11:09.261899 #5537]  INFO -- : [49414b14-eb70-414f-8060-7c0601d0dd4c] Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.7ms | Allocations: 1813)
+I, [2026-08-26T13:11:45.506141 #5537]  INFO -- : [06f8a28b-d949-4005-968e-cfa6749b5ccb] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-26 13:11:45 -0300
+I, [2026-08-26T13:11:45.511085 #5537]  INFO -- : [06f8a28b-d949-4005-968e-cfa6749b5ccb] Processing by PagesController#users as HTML
+I, [2026-08-26T13:11:45.524498 #5537]  INFO -- : [06f8a28b-d949-4005-968e-cfa6749b5ccb]   Rendered pages/users.html.erb within layouts/application (Duration: 2.4ms | Allocations: 419)
+I, [2026-08-26T13:11:45.528067 #5537]  INFO -- : [06f8a28b-d949-4005-968e-cfa6749b5ccb]   Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1251)
+I, [2026-08-26T13:11:45.528490 #5537]  INFO -- : [06f8a28b-d949-4005-968e-cfa6749b5ccb] Completed 200 OK in 17ms (Views: 7.2ms | ActiveRecord: 1.9ms | Allocations: 1883)
+I, [2026-08-26T13:11:46.360271 #5537]  INFO -- : [cfddf67a-12fe-4b06-9547-58404da4a273] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-26 13:11:46 -0300
+I, [2026-08-26T13:11:46.362326 #5537]  INFO -- : [cfddf67a-12fe-4b06-9547-58404da4a273] Processing by PagesController#users as HTML
+I, [2026-08-26T13:11:46.372449 #5537]  INFO -- : [cfddf67a-12fe-4b06-9547-58404da4a273]   Rendered pages/users.html.erb within layouts/application (Duration: 2.5ms | Allocations: 419)
+I, [2026-08-26T13:11:46.376472 #5537]  INFO -- : [cfddf67a-12fe-4b06-9547-58404da4a273]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1251)
+I, [2026-08-26T13:11:46.377076 #5537]  INFO -- : [cfddf67a-12fe-4b06-9547-58404da4a273] Completed 200 OK in 14ms (Views: 7.8ms | ActiveRecord: 1.2ms | Allocations: 1907)
+I, [2026-08-27T10:24:43.820282 #1838]  INFO -- : [c8bf176d-995c-4094-9a8f-36cd046d8726] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:24:43 -0300
+I, [2026-08-27T10:24:43.822883 #1838]  INFO -- : [c8bf176d-995c-4094-9a8f-36cd046d8726] Processing by PagesController#users as HTML
+I, [2026-08-27T10:24:43.825838 #1838]  INFO -- : [c8bf176d-995c-4094-9a8f-36cd046d8726] Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 1467)
+I, [2026-08-27T10:24:43.904477 #1838]  INFO -- : [55ba9956-f100-487a-86d1-ac4450d217c0] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-27 10:24:43 -0300
+I, [2026-08-27T10:24:43.905513 #1838]  INFO -- : [55ba9956-f100-487a-86d1-ac4450d217c0] Processing by Users::SessionsController#new as HTML
+I, [2026-08-27T10:24:44.261655 #1838]  INFO -- : [55ba9956-f100-487a-86d1-ac4450d217c0]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3513)
+I, [2026-08-27T10:24:44.263790 #1838]  INFO -- : [55ba9956-f100-487a-86d1-ac4450d217c0]   Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 5438)
+I, [2026-08-27T10:24:44.263986 #1838]  INFO -- : [55ba9956-f100-487a-86d1-ac4450d217c0] Completed 200 OK in 358ms (Views: 7.5ms | ActiveRecord: 204.9ms | Allocations: 17659)
+I, [2026-08-27T10:24:44.776946 #1838]  INFO -- : [84469d8a-2df5-4d34-905c-fd017e231475] Started GET "/" for 127.0.0.1 at 2026-08-27 10:24:44 -0300
+I, [2026-08-27T10:24:44.777567 #1838]  INFO -- : [84469d8a-2df5-4d34-905c-fd017e231475] Processing by PagesController#home as HTML
+I, [2026-08-27T10:24:44.780618 #1838]  INFO -- : [84469d8a-2df5-4d34-905c-fd017e231475]   Rendered pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 790)
+I, [2026-08-27T10:24:44.782046 #1838]  INFO -- : [84469d8a-2df5-4d34-905c-fd017e231475]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1671)
+I, [2026-08-27T10:24:44.782263 #1838]  INFO -- : [84469d8a-2df5-4d34-905c-fd017e231475] Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2358)
+I, [2026-08-27T10:24:45.736590 #1838]  INFO -- : [242ae1d7-3acb-463a-af73-6f772a1cb3c1] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-27 10:24:45 -0300
+I, [2026-08-27T10:24:45.737655 #1838]  INFO -- : [242ae1d7-3acb-463a-af73-6f772a1cb3c1] Processing by Users::SessionsController#new as HTML
+I, [2026-08-27T10:24:45.742090 #1838]  INFO -- : [242ae1d7-3acb-463a-af73-6f772a1cb3c1]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1617)
+I, [2026-08-27T10:24:45.743397 #1838]  INFO -- : [242ae1d7-3acb-463a-af73-6f772a1cb3c1]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2469)
+I, [2026-08-27T10:24:45.743613 #1838]  INFO -- : [242ae1d7-3acb-463a-af73-6f772a1cb3c1] Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3068)
+I, [2026-08-27T10:24:46.303220 #1838]  INFO -- : [01f6dc80-fe72-4fe5-9d6a-8c3dba8209a5] Started GET "/" for 127.0.0.1 at 2026-08-27 10:24:46 -0300
+I, [2026-08-27T10:24:46.303749 #1838]  INFO -- : [01f6dc80-fe72-4fe5-9d6a-8c3dba8209a5] Processing by PagesController#home as HTML
+I, [2026-08-27T10:24:46.304954 #1838]  INFO -- : [01f6dc80-fe72-4fe5-9d6a-8c3dba8209a5]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 490)
+I, [2026-08-27T10:24:46.306043 #1838]  INFO -- : [01f6dc80-fe72-4fe5-9d6a-8c3dba8209a5]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1287)
+I, [2026-08-27T10:24:46.306202 #1838]  INFO -- : [01f6dc80-fe72-4fe5-9d6a-8c3dba8209a5] Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1577)
+I, [2026-08-27T10:24:46.825169 #1838]  INFO -- : [5af9c7a2-1524-4772-8e96-d4c9b9238988] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-27 10:24:46 -0300
+I, [2026-08-27T10:24:46.826016 #1838]  INFO -- : [5af9c7a2-1524-4772-8e96-d4c9b9238988] Processing by Users::SessionsController#new as HTML
+I, [2026-08-27T10:24:46.830002 #1838]  INFO -- : [5af9c7a2-1524-4772-8e96-d4c9b9238988]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1617)
+I, [2026-08-27T10:24:46.831580 #1838]  INFO -- : [5af9c7a2-1524-4772-8e96-d4c9b9238988]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2469)
+I, [2026-08-27T10:24:46.831809 #1838]  INFO -- : [5af9c7a2-1524-4772-8e96-d4c9b9238988] Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3067)
+I, [2026-08-27T10:24:47.454139 #1838]  INFO -- : [c78f5e8b-9149-4d48-bfa6-61df649a1e31] Started GET "/" for 127.0.0.1 at 2026-08-27 10:24:47 -0300
+I, [2026-08-27T10:24:47.454829 #1838]  INFO -- : [c78f5e8b-9149-4d48-bfa6-61df649a1e31] Processing by PagesController#home as HTML
+I, [2026-08-27T10:24:47.456684 #1838]  INFO -- : [c78f5e8b-9149-4d48-bfa6-61df649a1e31]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 490)
+I, [2026-08-27T10:24:47.457664 #1838]  INFO -- : [c78f5e8b-9149-4d48-bfa6-61df649a1e31]   Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1286)
+I, [2026-08-27T10:24:47.457810 #1838]  INFO -- : [c78f5e8b-9149-4d48-bfa6-61df649a1e31] Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1587)
+I, [2026-08-27T10:24:48.053918 #1838]  INFO -- : [634173db-88a6-4571-b151-762752f7f19f] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-27 10:24:48 -0300
+I, [2026-08-27T10:24:48.054818 #1838]  INFO -- : [634173db-88a6-4571-b151-762752f7f19f] Processing by Users::SessionsController#new as HTML
+I, [2026-08-27T10:24:48.058084 #1838]  INFO -- : [634173db-88a6-4571-b151-762752f7f19f]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1617)
+I, [2026-08-27T10:24:48.058896 #1838]  INFO -- : [634173db-88a6-4571-b151-762752f7f19f]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2468)
+I, [2026-08-27T10:24:48.059009 #1838]  INFO -- : [634173db-88a6-4571-b151-762752f7f19f] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3082)
+I, [2026-08-27T10:24:48.404278 #1838]  INFO -- : [c93abb4a-8932-41a4-8de8-2417a0ea5418] Started GET "/" for 127.0.0.1 at 2026-08-27 10:24:48 -0300
+I, [2026-08-27T10:24:48.405460 #1838]  INFO -- : [c93abb4a-8932-41a4-8de8-2417a0ea5418] Processing by PagesController#home as HTML
+I, [2026-08-27T10:24:48.407447 #1838]  INFO -- : [c93abb4a-8932-41a4-8de8-2417a0ea5418]   Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 490)
+I, [2026-08-27T10:24:48.408961 #1838]  INFO -- : [c93abb4a-8932-41a4-8de8-2417a0ea5418]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1286)
+I, [2026-08-27T10:24:48.409157 #1838]  INFO -- : [c93abb4a-8932-41a4-8de8-2417a0ea5418] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1575)
+I, [2026-08-27T10:24:48.959278 #1838]  INFO -- : [461a8bfb-3b8b-4796-a71c-374dff34ce54] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-27 10:24:48 -0300
+I, [2026-08-27T10:24:48.959767 #1838]  INFO -- : [461a8bfb-3b8b-4796-a71c-374dff34ce54] Processing by Users::SessionsController#new as HTML
+I, [2026-08-27T10:24:48.961867 #1838]  INFO -- : [461a8bfb-3b8b-4796-a71c-374dff34ce54]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1617)
+I, [2026-08-27T10:24:48.962630 #1838]  INFO -- : [461a8bfb-3b8b-4796-a71c-374dff34ce54]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2468)
+I, [2026-08-27T10:24:48.962764 #1838]  INFO -- : [461a8bfb-3b8b-4796-a71c-374dff34ce54] Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 3064)
+I, [2026-08-27T10:24:49.554346 #1838]  INFO -- : [d120a0f0-332d-4e96-9458-ea7f650666f0] Started GET "/" for 127.0.0.1 at 2026-08-27 10:24:49 -0300
+I, [2026-08-27T10:24:49.555214 #1838]  INFO -- : [d120a0f0-332d-4e96-9458-ea7f650666f0] Processing by PagesController#home as HTML
+I, [2026-08-27T10:24:49.557301 #1838]  INFO -- : [d120a0f0-332d-4e96-9458-ea7f650666f0]   Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 490)
+I, [2026-08-27T10:24:49.558697 #1838]  INFO -- : [d120a0f0-332d-4e96-9458-ea7f650666f0]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1286)
+I, [2026-08-27T10:24:49.558844 #1838]  INFO -- : [d120a0f0-332d-4e96-9458-ea7f650666f0] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1593)
+I, [2026-08-27T10:24:50.216302 #1838]  INFO -- : [dcd9c7d3-9837-44a9-9154-f168564be388] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-27 10:24:50 -0300
+I, [2026-08-27T10:24:50.217650 #1838]  INFO -- : [dcd9c7d3-9837-44a9-9154-f168564be388] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-27T10:24:50.236224 #1838]  INFO -- : [dcd9c7d3-9837-44a9-9154-f168564be388]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 3343)
+I, [2026-08-27T10:24:50.237240 #1838]  INFO -- : [dcd9c7d3-9837-44a9-9154-f168564be388]   Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4264)
+I, [2026-08-27T10:24:50.237401 #1838]  INFO -- : [dcd9c7d3-9837-44a9-9154-f168564be388] Completed 200 OK in 20ms (Views: 6.1ms | ActiveRecord: 8.0ms | Allocations: 7445)
+I, [2026-08-27T10:24:59.826908 #1838]  INFO -- : [87616f1c-fdec-4fb2-b037-561b884f5289] Started POST "/admins/sign_in" for 127.0.0.1 at 2026-08-27 10:24:59 -0300
+I, [2026-08-27T10:24:59.828035 #1838]  INFO -- : [87616f1c-fdec-4fb2-b037-561b884f5289] Processing by Admins::SessionsController#create as TURBO_STREAM
+I, [2026-08-27T10:24:59.828091 #1838]  INFO -- : [87616f1c-fdec-4fb2-b037-561b884f5289]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@example.com.prod", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2026-08-27T10:25:00.054243 #1838]  INFO -- : [87616f1c-fdec-4fb2-b037-561b884f5289] Redirected to http://localhost:3002/
+I, [2026-08-27T10:25:00.054361 #1838]  INFO -- : [87616f1c-fdec-4fb2-b037-561b884f5289] Completed 303 See Other in 226ms (ActiveRecord: 3.4ms | Allocations: 2773)
+I, [2026-08-27T10:25:00.057249 #1838]  INFO -- : [50c20211-82b1-4455-ad9a-2adf17f42a4f] Started GET "/" for 127.0.0.1 at 2026-08-27 10:25:00 -0300
+I, [2026-08-27T10:25:00.057757 #1838]  INFO -- : [50c20211-82b1-4455-ad9a-2adf17f42a4f] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-27T10:25:00.061596 #1838]  INFO -- : [50c20211-82b1-4455-ad9a-2adf17f42a4f]   Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 706)
+I, [2026-08-27T10:25:00.062658 #1838]  INFO -- : [50c20211-82b1-4455-ad9a-2adf17f42a4f]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1601)
+I, [2026-08-27T10:25:00.062791 #1838]  INFO -- : [50c20211-82b1-4455-ad9a-2adf17f42a4f] Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.6ms | Allocations: 1945)
+I, [2026-08-27T10:25:01.304273 #1838]  INFO -- : [1ba49956-55e2-45c8-acdd-11039fa03727] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:01 -0300
+I, [2026-08-27T10:25:01.305115 #1838]  INFO -- : [1ba49956-55e2-45c8-acdd-11039fa03727] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:01.310098 #1838]  INFO -- : [1ba49956-55e2-45c8-acdd-11039fa03727]   Rendered pages/users.html.erb within layouts/application (Duration: 1.7ms | Allocations: 775)
+I, [2026-08-27T10:25:01.311358 #1838]  INFO -- : [1ba49956-55e2-45c8-acdd-11039fa03727]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1608)
+I, [2026-08-27T10:25:01.311560 #1838]  INFO -- : [1ba49956-55e2-45c8-acdd-11039fa03727] Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.6ms | Allocations: 2299)
+I, [2026-08-27T10:25:01.820914 #1838]  INFO -- : [84ea8c7e-6716-40ed-acd5-d8f7b08fefcc] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:01 -0300
+I, [2026-08-27T10:25:01.821838 #1838]  INFO -- : [84ea8c7e-6716-40ed-acd5-d8f7b08fefcc] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:01.829290 #1838]  INFO -- : [84ea8c7e-6716-40ed-acd5-d8f7b08fefcc]   Rendered pages/admin.html.erb within layouts/application (Duration: 3.7ms | Allocations: 870)
+I, [2026-08-27T10:25:01.830490 #1838]  INFO -- : [84ea8c7e-6716-40ed-acd5-d8f7b08fefcc]   Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 1757)
+I, [2026-08-27T10:25:01.830665 #1838]  INFO -- : [84ea8c7e-6716-40ed-acd5-d8f7b08fefcc] Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 3.3ms | Allocations: 2533)
+I, [2026-08-27T10:25:02.688700 #1838]  INFO -- : [5ae3a49f-12aa-42ce-a165-36502a86b5e5] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:02 -0300
+I, [2026-08-27T10:25:02.689546 #1838]  INFO -- : [5ae3a49f-12aa-42ce-a165-36502a86b5e5] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:02.693788 #1838]  INFO -- : [5ae3a49f-12aa-42ce-a165-36502a86b5e5]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-27T10:25:02.694913 #1838]  INFO -- : [5ae3a49f-12aa-42ce-a165-36502a86b5e5]   Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1251)
+I, [2026-08-27T10:25:02.695070 #1838]  INFO -- : [5ae3a49f-12aa-42ce-a165-36502a86b5e5] Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.8ms | Allocations: 1893)
+I, [2026-08-27T10:25:10.472278 #1838]  INFO -- : [57551e8d-6d46-4899-8b7c-aa01e8a3b568] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:10 -0300
+I, [2026-08-27T10:25:10.473055 #1838]  INFO -- : [57551e8d-6d46-4899-8b7c-aa01e8a3b568] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:10.477142 #1838]  INFO -- : [57551e8d-6d46-4899-8b7c-aa01e8a3b568]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.2ms | Allocations: 322)
+I, [2026-08-27T10:25:10.478373 #1838]  INFO -- : [57551e8d-6d46-4899-8b7c-aa01e8a3b568]   Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1209)
+I, [2026-08-27T10:25:10.478497 #1838]  INFO -- : [57551e8d-6d46-4899-8b7c-aa01e8a3b568] Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.2ms | Allocations: 1866)
+I, [2026-08-27T10:25:12.755913 #1838]  INFO -- : [2471d7b0-847b-499d-b5fa-b8a5c78dd17c] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:12 -0300
+I, [2026-08-27T10:25:12.756641 #1838]  INFO -- : [2471d7b0-847b-499d-b5fa-b8a5c78dd17c] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:12.761044 #1838]  INFO -- : [2471d7b0-847b-499d-b5fa-b8a5c78dd17c]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.3ms | Allocations: 322)
+I, [2026-08-27T10:25:12.762354 #1838]  INFO -- : [2471d7b0-847b-499d-b5fa-b8a5c78dd17c]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1209)
+I, [2026-08-27T10:25:12.762512 #1838]  INFO -- : [2471d7b0-847b-499d-b5fa-b8a5c78dd17c] Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 1.3ms | Allocations: 1890)
+I, [2026-08-27T10:25:13.888268 #1838]  INFO -- : [29face5c-3905-4436-b576-09326009feb9] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:13 -0300
+I, [2026-08-27T10:25:13.888917 #1838]  INFO -- : [29face5c-3905-4436-b576-09326009feb9] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:13.892681 #1838]  INFO -- : [29face5c-3905-4436-b576-09326009feb9]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.2ms | Allocations: 322)
+I, [2026-08-27T10:25:13.894111 #1838]  INFO -- : [29face5c-3905-4436-b576-09326009feb9]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1209)
+I, [2026-08-27T10:25:13.894240 #1838]  INFO -- : [29face5c-3905-4436-b576-09326009feb9] Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 1.0ms | Allocations: 1857)
+I, [2026-08-27T10:25:14.121069 #1838]  INFO -- : [fbd1d80e-f739-488c-869b-f3a6d1dc52bd] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:14 -0300
+I, [2026-08-27T10:25:14.121644 #1838]  INFO -- : [fbd1d80e-f739-488c-869b-f3a6d1dc52bd] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:14.125384 #1838]  INFO -- : [fbd1d80e-f739-488c-869b-f3a6d1dc52bd]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.2ms | Allocations: 322)
+I, [2026-08-27T10:25:14.126402 #1838]  INFO -- : [fbd1d80e-f739-488c-869b-f3a6d1dc52bd]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1209)
+I, [2026-08-27T10:25:14.126535 #1838]  INFO -- : [fbd1d80e-f739-488c-869b-f3a6d1dc52bd] Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 1.1ms | Allocations: 1893)
+I, [2026-08-27T10:25:14.454397 #1838]  INFO -- : [215f8e6d-c484-4fd3-8a65-4e4f72b85942] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:14 -0300
+I, [2026-08-27T10:25:14.455636 #1838]  INFO -- : [215f8e6d-c484-4fd3-8a65-4e4f72b85942] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:14.460571 #1838]  INFO -- : [215f8e6d-c484-4fd3-8a65-4e4f72b85942]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.3ms | Allocations: 322)
+I, [2026-08-27T10:25:14.461848 #1838]  INFO -- : [215f8e6d-c484-4fd3-8a65-4e4f72b85942]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1209)
+I, [2026-08-27T10:25:14.462035 #1838]  INFO -- : [215f8e6d-c484-4fd3-8a65-4e4f72b85942] Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 1.2ms | Allocations: 1860)
+I, [2026-08-27T10:25:16.498721 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8] Started GET "/?locale=pt-BR" for 127.0.0.1 at 2026-08-27 10:25:16 -0300
+I, [2026-08-27T10:25:16.499347 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8] Processing by PagesController#home as HTML
+I, [2026-08-27T10:25:16.499393 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8]   Parameters: {"locale"=>"pt-BR"}
+I, [2026-08-27T10:25:16.502909 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8]   Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 663)
+I, [2026-08-27T10:25:16.503956 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1495)
+I, [2026-08-27T10:25:16.504118 #1838]  INFO -- : [45f9dcf5-0528-4a0a-9e1d-a8fbdc9b21d8] Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1875)
+I, [2026-08-27T10:25:17.355979 #1838]  INFO -- : [818d3ff2-f892-4cbc-b1e4-43dc32bf2db4] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:17 -0300
+I, [2026-08-27T10:25:17.357119 #1838]  INFO -- : [818d3ff2-f892-4cbc-b1e4-43dc32bf2db4] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:17.360093 #1838]  INFO -- : [818d3ff2-f892-4cbc-b1e4-43dc32bf2db4]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-27T10:25:17.361072 #1838]  INFO -- : [818d3ff2-f892-4cbc-b1e4-43dc32bf2db4]   Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1255)
+I, [2026-08-27T10:25:17.361201 #1838]  INFO -- : [818d3ff2-f892-4cbc-b1e4-43dc32bf2db4] Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1915)
+I, [2026-08-27T10:25:19.687774 #1838]  INFO -- : [ef284528-dbe5-416f-b764-cdeb1f9539d8] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:19 -0300
+I, [2026-08-27T10:25:19.688839 #1838]  INFO -- : [ef284528-dbe5-416f-b764-cdeb1f9539d8] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:19.695539 #1838]  INFO -- : [ef284528-dbe5-416f-b764-cdeb1f9539d8]   Rendered pages/admin.html.erb within layouts/application (Duration: 2.5ms | Allocations: 322)
+I, [2026-08-27T10:25:19.696802 #1838]  INFO -- : [ef284528-dbe5-416f-b764-cdeb1f9539d8]   Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1210)
+I, [2026-08-27T10:25:19.696972 #1838]  INFO -- : [ef284528-dbe5-416f-b764-cdeb1f9539d8] Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.7ms | Allocations: 1861)
+I, [2026-08-27T10:25:20.172733 #1838]  INFO -- : [ecb7ebb8-431e-4783-9487-492a3c9ee14c] Started GET "/" for 127.0.0.1 at 2026-08-27 10:25:20 -0300
+I, [2026-08-27T10:25:20.173795 #1838]  INFO -- : [ecb7ebb8-431e-4783-9487-492a3c9ee14c] Processing by PagesController#home as HTML
+I, [2026-08-27T10:25:20.177511 #1838]  INFO -- : [ecb7ebb8-431e-4783-9487-492a3c9ee14c]   Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 663)
+I, [2026-08-27T10:25:20.190131 #1838]  INFO -- : [ecb7ebb8-431e-4783-9487-492a3c9ee14c]   Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 1495)
+I, [2026-08-27T10:25:20.190300 #1838]  INFO -- : [ecb7ebb8-431e-4783-9487-492a3c9ee14c] Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.6ms | Allocations: 1810)
+I, [2026-08-27T10:25:20.489251 #1838]  INFO -- : [d9f81c21-4134-4e85-bdde-09d5fe89f007] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:20 -0300
+I, [2026-08-27T10:25:20.489947 #1838]  INFO -- : [d9f81c21-4134-4e85-bdde-09d5fe89f007] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:20.493439 #1838]  INFO -- : [d9f81c21-4134-4e85-bdde-09d5fe89f007]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-27T10:25:20.494964 #1838]  INFO -- : [d9f81c21-4134-4e85-bdde-09d5fe89f007]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1255)
+I, [2026-08-27T10:25:20.495086 #1838]  INFO -- : [d9f81c21-4134-4e85-bdde-09d5fe89f007] Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 1901)
+I, [2026-08-27T10:25:20.943673 #1838]  INFO -- : [82122363-4942-4423-a7ee-39f18bfd8762] Started GET "/" for 127.0.0.1 at 2026-08-27 10:25:20 -0300
+I, [2026-08-27T10:25:20.944360 #1838]  INFO -- : [82122363-4942-4423-a7ee-39f18bfd8762] Processing by PagesController#home as HTML
+I, [2026-08-27T10:25:20.947902 #1838]  INFO -- : [82122363-4942-4423-a7ee-39f18bfd8762]   Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 663)
+I, [2026-08-27T10:25:20.949532 #1838]  INFO -- : [82122363-4942-4423-a7ee-39f18bfd8762]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1495)
+I, [2026-08-27T10:25:20.949744 #1838]  INFO -- : [82122363-4942-4423-a7ee-39f18bfd8762] Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.6ms | Allocations: 1805)
+I, [2026-08-27T10:25:21.488664 #1838]  INFO -- : [03baf5c4-9ac3-4cd6-a349-d45db497b59d] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:21 -0300
+I, [2026-08-27T10:25:21.489358 #1838]  INFO -- : [03baf5c4-9ac3-4cd6-a349-d45db497b59d] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:21.492807 #1838]  INFO -- : [03baf5c4-9ac3-4cd6-a349-d45db497b59d]   Rendered pages/users.html.erb within layouts/application (Duration: 0.8ms | Allocations: 419)
+I, [2026-08-27T10:25:21.493698 #1838]  INFO -- : [03baf5c4-9ac3-4cd6-a349-d45db497b59d]   Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1255)
+I, [2026-08-27T10:25:21.493823 #1838]  INFO -- : [03baf5c4-9ac3-4cd6-a349-d45db497b59d] Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 1889)
+I, [2026-08-27T10:25:22.055775 #1838]  INFO -- : [0550034a-3ab5-4c63-98f3-05adb5a694e2] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:22 -0300
+I, [2026-08-27T10:25:22.056243 #1838]  INFO -- : [0550034a-3ab5-4c63-98f3-05adb5a694e2] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:22.059827 #1838]  INFO -- : [0550034a-3ab5-4c63-98f3-05adb5a694e2]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.3ms | Allocations: 322)
+I, [2026-08-27T10:25:22.060861 #1838]  INFO -- : [0550034a-3ab5-4c63-98f3-05adb5a694e2]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1210)
+I, [2026-08-27T10:25:22.061007 #1838]  INFO -- : [0550034a-3ab5-4c63-98f3-05adb5a694e2] Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.9ms | Allocations: 1865)
+I, [2026-08-27T10:25:22.437940 #1838]  INFO -- : [da10b2e9-413b-4d80-b122-88194e44c051] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:22 -0300
+I, [2026-08-27T10:25:22.438568 #1838]  INFO -- : [da10b2e9-413b-4d80-b122-88194e44c051] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:22.441549 #1838]  INFO -- : [da10b2e9-413b-4d80-b122-88194e44c051]   Rendered pages/users.html.erb within layouts/application (Duration: 0.5ms | Allocations: 419)
+I, [2026-08-27T10:25:22.444758 #1838]  INFO -- : [da10b2e9-413b-4d80-b122-88194e44c051]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1255)
+I, [2026-08-27T10:25:22.444985 #1838]  INFO -- : [da10b2e9-413b-4d80-b122-88194e44c051] Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.5ms | Allocations: 1892)
+I, [2026-08-27T10:25:22.906502 #1838]  INFO -- : [10a356de-ae5e-4677-8f81-630bc722670e] Started GET "/" for 127.0.0.1 at 2026-08-27 10:25:22 -0300
+I, [2026-08-27T10:25:22.907359 #1838]  INFO -- : [10a356de-ae5e-4677-8f81-630bc722670e] Processing by PagesController#home as HTML
+I, [2026-08-27T10:25:22.912059 #1838]  INFO -- : [10a356de-ae5e-4677-8f81-630bc722670e]   Rendered pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 663)
+I, [2026-08-27T10:25:22.913734 #1838]  INFO -- : [10a356de-ae5e-4677-8f81-630bc722670e]   Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1495)
+I, [2026-08-27T10:25:22.913938 #1838]  INFO -- : [10a356de-ae5e-4677-8f81-630bc722670e] Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.9ms | Allocations: 1808)
+I, [2026-08-27T10:25:23.505661 #1838]  INFO -- : [d42677dc-bf94-43da-9e3f-9ba6ff75867a] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 10:25:23 -0300
+I, [2026-08-27T10:25:23.506309 #1838]  INFO -- : [d42677dc-bf94-43da-9e3f-9ba6ff75867a] Processing by PagesController#users as HTML
+I, [2026-08-27T10:25:23.510044 #1838]  INFO -- : [d42677dc-bf94-43da-9e3f-9ba6ff75867a]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-27T10:25:23.511238 #1838]  INFO -- : [d42677dc-bf94-43da-9e3f-9ba6ff75867a]   Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1255)
+I, [2026-08-27T10:25:23.511370 #1838]  INFO -- : [d42677dc-bf94-43da-9e3f-9ba6ff75867a] Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.7ms | Allocations: 1910)
+I, [2026-08-27T10:25:23.806289 #1838]  INFO -- : [b5f7aa67-be2d-4baf-8d14-51eabf3daf1e] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-27 10:25:23 -0300
+I, [2026-08-27T10:25:23.807196 #1838]  INFO -- : [b5f7aa67-be2d-4baf-8d14-51eabf3daf1e] Processing by PagesController#admin as HTML
+I, [2026-08-27T10:25:23.812776 #1838]  INFO -- : [b5f7aa67-be2d-4baf-8d14-51eabf3daf1e]   Rendered pages/admin.html.erb within layouts/application (Duration: 2.1ms | Allocations: 322)
+I, [2026-08-27T10:25:23.814457 #1838]  INFO -- : [b5f7aa67-be2d-4baf-8d14-51eabf3daf1e]   Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1210)
+I, [2026-08-27T10:25:23.814619 #1838]  INFO -- : [b5f7aa67-be2d-4baf-8d14-51eabf3daf1e] Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 1.5ms | Allocations: 1910)
+I, [2026-08-27T10:25:31.522738 #1838]  INFO -- : [05a1f55d-559f-4e69-86f1-544eec49f1ca] Started GET "/" for 127.0.0.1 at 2026-08-27 10:25:31 -0300
+I, [2026-08-27T10:25:31.523665 #1838]  INFO -- : [05a1f55d-559f-4e69-86f1-544eec49f1ca] Processing by PagesController#home as HTML
+I, [2026-08-27T10:25:31.529522 #1838]  INFO -- : [05a1f55d-559f-4e69-86f1-544eec49f1ca]   Rendered pages/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 663)
+I, [2026-08-27T10:25:31.531661 #1838]  INFO -- : [05a1f55d-559f-4e69-86f1-544eec49f1ca]   Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 1496)
+I, [2026-08-27T10:25:31.532033 #1838]  INFO -- : [05a1f55d-559f-4e69-86f1-544eec49f1ca] Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.9ms | Allocations: 1834)
+I, [2026-08-27T13:41:09.428931 #829]  INFO -- : [600cf4f6-2c7f-42a5-ada0-b9354732183f] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-27 13:41:09 -0300
+I, [2026-08-27T13:41:09.432033 #829]  INFO -- : [600cf4f6-2c7f-42a5-ada0-b9354732183f] Processing by PagesController#users as HTML
+I, [2026-08-27T13:41:09.438175 #829]  INFO -- : [600cf4f6-2c7f-42a5-ada0-b9354732183f] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2776)
+F, [2026-08-27T13:41:09.439142 #829] FATAL -- : [600cf4f6-2c7f-42a5-ada0-b9354732183f]   
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] ActiveRecord::ConnectionNotEstablished (connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+):
+[600cf4f6-2c7f-42a5-ada0-b9354732183f]   
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `public_send'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `new_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:704:in `checkout_new_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:683:in `try_to_checkout_new_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:639:in `acquire_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/connection_handling.rb:280:in `connection'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/model_schema.rb:409:in `table_exists?'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/attribute_methods/primary_key.rb:95:in `get_primary_key'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/attribute_methods/primary_key.rb:83:in `reset_primary_key'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/attribute_methods/primary_key.rb:71:in `primary_key'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] orm_adapter (0.5.0) lib/orm_adapter/adapters/active_record.rb:17:in `get'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] devise (5.0.3) lib/devise/models/authenticatable.rb:230:in `serialize_from_session'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] devise (5.0.3) lib/devise.rb:500:in `block (2 levels) in configure_warden!'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/session_serializer.rb:35:in `fetch'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/proxy.rb:224:in `user'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/proxy.rb:334:in `_perform_authentication'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/proxy.rb:110:in `authenticate'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] devise (5.0.3) lib/devise/controllers/helpers.rb:128:in `current_admin'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] devise (5.0.3) lib/devise/controllers/helpers.rb:124:in `admin_signed_in?'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:406:in `block in inverted_lambda'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:179:in `block (2 levels) in halting_and_conditional'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:179:in `all?'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:595:in `each'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:595:in `invoke_before'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] turbo-rails (2.0.12) lib/turbo-rails.rb:24:in `with_request_id'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] turbo-rails (2.0.12) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actiontext (7.0.10) lib/action_text/rendering.rb:20:in `with_renderer'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actiontext (7.0.10) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `instance_exec'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:138:in `run_callbacks'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/abstract_controller/callbacks.rb:233:in `process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal/rescue.rb:23:in `process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `block in instrument'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `instrument'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activerecord (7.0.10) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/abstract_controller/base.rb:151:in `process'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionview (7.0.10) lib/action_view/rendering.rb:39:in `process'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal.rb:188:in `dispatch'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_controller/metal.rb:251:in `dispatch'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `each'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `serve'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:852:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] warden (1.2.9) lib/warden/manager.rb:34:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/tempfile_reaper.rb:15:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/etag.rb:27:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/conditional_get.rb:27:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/head.rb:12:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/http/content_security_policy.rb:39:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/session/abstract/id.rb:266:in `context'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/session/abstract/id.rb:260:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/callbacks.rb:99:in `run_callbacks'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] railties (7.0.10) lib/rails/rack/logger.rb:40:in `call_app'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] railties (7.0.10) lib/rails/rack/logger.rb:25:in `block in call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/tagged_logging.rb:37:in `tagged'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `tagged'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] railties (7.0.10) lib/rails/rack/logger.rb:25:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/method_override.rb:24:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/runtime.rb:22:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] rack (2.2.23) lib/rack/sendfile.rb:127:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] actionpack (7.0.10) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] railties (7.0.10) lib/rails/engine.rb:531:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/configuration.rb:305:in `call'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/response.rb:79:in `block in handle_request'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/thread_pool.rb:434:in `with_force_shutdown'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/response.rb:78:in `handle_request'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/server.rb:508:in `process_client'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/server.rb:263:in `block in run'
+[600cf4f6-2c7f-42a5-ada0-b9354732183f] puma (8.0.0) lib/puma/thread_pool.rb:246:in `block in spawn_thread'
+I, [2026-08-28T11:40:45.706187 #1420]  INFO -- : [a1fbcd40-249f-4260-8381-340305ac5195] Started GET "/" for 127.0.0.1 at 2026-08-28 11:40:45 -0300
+I, [2026-08-28T11:40:45.710679 #1420]  INFO -- : [a1fbcd40-249f-4260-8381-340305ac5195] Processing by PagesController#home as HTML
+I, [2026-08-28T11:40:45.724784 #1420]  INFO -- : [a1fbcd40-249f-4260-8381-340305ac5195]   Rendered pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2089)
+I, [2026-08-28T11:40:45.729233 #1420]  INFO -- : [a1fbcd40-249f-4260-8381-340305ac5195]   Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4083)
+I, [2026-08-28T11:40:45.729514 #1420]  INFO -- : [a1fbcd40-249f-4260-8381-340305ac5195] Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 5728)
+I, [2026-08-28T11:40:49.450998 #1420]  INFO -- : [50ceb9b0-6bd2-40be-bdb5-59875e641739] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 11:40:49 -0300
+I, [2026-08-28T11:40:49.452273 #1420]  INFO -- : [50ceb9b0-6bd2-40be-bdb5-59875e641739] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T11:40:49.461156 #1420]  INFO -- : [50ceb9b0-6bd2-40be-bdb5-59875e641739] Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2742)
+F, [2026-08-28T11:40:49.461863 #1420] FATAL -- : [50ceb9b0-6bd2-40be-bdb5-59875e641739]   
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] ActiveRecord::ConnectionNotEstablished (connection to server at "127.0.0.1", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+):
+[50ceb9b0-6bd2-40be-bdb5-59875e641739]   
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `public_send'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:655:in `new_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:704:in `checkout_new_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:683:in `try_to_checkout_new_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:639:in `acquire_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/connection_handling.rb:280:in `connection'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/model_schema.rb:582:in `load_schema!'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/attributes.rb:264:in `load_schema!'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/encryption/encryptable_record.rb:122:in `load_schema!'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/model_schema.rb:568:in `block in load_schema'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/model_schema.rb:565:in `synchronize'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/model_schema.rb:565:in `load_schema'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/model_schema.rb:431:in `attribute_types'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/inheritance.rb:60:in `new'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] devise (5.0.3) app/controllers/devise/sessions_controller.rb:11:in `new'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/abstract_controller/base.rb:215:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/rendering.rb:165:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] turbo-rails (2.0.12) lib/turbo-rails.rb:24:in `with_request_id'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] turbo-rails (2.0.12) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actiontext (7.0.10) lib/action_text/rendering.rb:20:in `with_renderer'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actiontext (7.0.10) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `instance_exec'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:138:in `run_callbacks'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/abstract_controller/callbacks.rb:233:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/rescue.rb:23:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `block in instrument'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/notifications.rb:206:in `instrument'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activerecord (7.0.10) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/abstract_controller/base.rb:151:in `process'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionview (7.0.10) lib/action_view/rendering.rb:39:in `process'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal.rb:188:in `dispatch'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_controller/metal.rb:251:in `dispatch'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `each'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/journey/router.rb:32:in `serve'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/routing/route_set.rb:852:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] warden (1.2.9) lib/warden/manager.rb:34:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/tempfile_reaper.rb:15:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/etag.rb:27:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/conditional_get.rb:27:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/head.rb:12:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/http/content_security_policy.rb:39:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/session/abstract/id.rb:266:in `context'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/session/abstract/id.rb:260:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/callbacks.rb:99:in `run_callbacks'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] railties (7.0.10) lib/rails/rack/logger.rb:40:in `call_app'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] railties (7.0.10) lib/rails/rack/logger.rb:25:in `block in call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/tagged_logging.rb:37:in `tagged'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] activesupport (7.0.10) lib/active_support/tagged_logging.rb:99:in `tagged'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] railties (7.0.10) lib/rails/rack/logger.rb:25:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/method_override.rb:24:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/runtime.rb:22:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] rack (2.2.23) lib/rack/sendfile.rb:127:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] actionpack (7.0.10) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] railties (7.0.10) lib/rails/engine.rb:531:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/configuration.rb:305:in `call'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/response.rb:79:in `block in handle_request'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/thread_pool.rb:434:in `with_force_shutdown'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/response.rb:78:in `handle_request'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/server.rb:508:in `process_client'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/server.rb:263:in `block in run'
+[50ceb9b0-6bd2-40be-bdb5-59875e641739] puma (8.0.0) lib/puma/thread_pool.rb:246:in `block in spawn_thread'
+I, [2026-08-28T11:40:51.200789 #1420]  INFO -- : [9a12ee01-d4a1-4d87-9204-6cfcb6f8cd22] Started GET "/" for 127.0.0.1 at 2026-08-28 11:40:51 -0300
+I, [2026-08-28T11:40:51.201371 #1420]  INFO -- : [9a12ee01-d4a1-4d87-9204-6cfcb6f8cd22] Processing by PagesController#home as HTML
+I, [2026-08-28T11:40:51.202610 #1420]  INFO -- : [9a12ee01-d4a1-4d87-9204-6cfcb6f8cd22]   Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 489)
+I, [2026-08-28T11:40:51.203982 #1420]  INFO -- : [9a12ee01-d4a1-4d87-9204-6cfcb6f8cd22]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1287)
+I, [2026-08-28T11:40:51.204172 #1420]  INFO -- : [9a12ee01-d4a1-4d87-9204-6cfcb6f8cd22] Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1600)
+I, [2026-08-28T11:51:27.153510 #1420]  INFO -- : [2d0d8cdd-8292-4864-aa13-01cc383a8542] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 11:51:27 -0300
+I, [2026-08-28T11:51:27.158888 #1420]  INFO -- : [2d0d8cdd-8292-4864-aa13-01cc383a8542] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T11:51:27.289725 #1420]  INFO -- : [2d0d8cdd-8292-4864-aa13-01cc383a8542]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3637)
+I, [2026-08-28T11:51:27.290871 #1420]  INFO -- : [2d0d8cdd-8292-4864-aa13-01cc383a8542]   Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4569)
+I, [2026-08-28T11:51:27.291125 #1420]  INFO -- : [2d0d8cdd-8292-4864-aa13-01cc383a8542] Completed 200 OK in 132ms (Views: 16.5ms | ActiveRecord: 53.3ms | Allocations: 15536)
+I, [2026-08-28T11:51:28.703901 #1420]  INFO -- : [f36c15e9-e137-4d53-ad7d-8eccd7bf29cc] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 11:51:28 -0300
+I, [2026-08-28T11:51:28.705175 #1420]  INFO -- : [f36c15e9-e137-4d53-ad7d-8eccd7bf29cc] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T11:51:28.732179 #1420]  INFO -- : [f36c15e9-e137-4d53-ad7d-8eccd7bf29cc]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3431)
+I, [2026-08-28T11:51:28.733377 #1420]  INFO -- : [f36c15e9-e137-4d53-ad7d-8eccd7bf29cc]   Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4354)
+I, [2026-08-28T11:51:28.733583 #1420]  INFO -- : [f36c15e9-e137-4d53-ad7d-8eccd7bf29cc] Completed 200 OK in 28ms (Views: 16.9ms | ActiveRecord: 6.5ms | Allocations: 7575)
+I, [2026-08-28T11:51:35.405392 #1420]  INFO -- : [a446d52a-c650-4eba-ba22-4d82fd22e1ce] Started POST "/admins/sign_in" for 127.0.0.1 at 2026-08-28 11:51:35 -0300
+I, [2026-08-28T11:51:35.406426 #1420]  INFO -- : [a446d52a-c650-4eba-ba22-4d82fd22e1ce] Processing by Admins::SessionsController#create as TURBO_STREAM
+I, [2026-08-28T11:51:35.406469 #1420]  INFO -- : [a446d52a-c650-4eba-ba22-4d82fd22e1ce]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@example.com.prod", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+I, [2026-08-28T11:51:35.649279 #1420]  INFO -- : [a446d52a-c650-4eba-ba22-4d82fd22e1ce] Redirected to http://localhost:3002/
+I, [2026-08-28T11:51:35.649373 #1420]  INFO -- : [a446d52a-c650-4eba-ba22-4d82fd22e1ce] Completed 303 See Other in 243ms (ActiveRecord: 1.1ms | Allocations: 2826)
+I, [2026-08-28T11:51:35.658621 #1420]  INFO -- : [b4ef5347-a6cf-41d4-8de8-92b927cc53f5] Started GET "/" for 127.0.0.1 at 2026-08-28 11:51:35 -0300
+I, [2026-08-28T11:51:35.659117 #1420]  INFO -- : [b4ef5347-a6cf-41d4-8de8-92b927cc53f5] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T11:51:35.663179 #1420]  INFO -- : [b4ef5347-a6cf-41d4-8de8-92b927cc53f5]   Rendered pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 710)
+I, [2026-08-28T11:51:35.664082 #1420]  INFO -- : [b4ef5347-a6cf-41d4-8de8-92b927cc53f5]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1607)
+I, [2026-08-28T11:51:35.664261 #1420]  INFO -- : [b4ef5347-a6cf-41d4-8de8-92b927cc53f5] Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.5ms | Allocations: 1976)
+I, [2026-08-28T11:51:36.940278 #1420]  INFO -- : [bf1fe2ee-3077-464c-9173-5fc7e1172c27] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-28 11:51:36 -0300
+I, [2026-08-28T11:51:36.940950 #1420]  INFO -- : [bf1fe2ee-3077-464c-9173-5fc7e1172c27] Processing by PagesController#admin as HTML
+I, [2026-08-28T11:51:36.955114 #1420]  INFO -- : [bf1fe2ee-3077-464c-9173-5fc7e1172c27]   Rendered pages/admin.html.erb within layouts/application (Duration: 5.9ms | Allocations: 899)
+I, [2026-08-28T11:51:36.956366 #1420]  INFO -- : [bf1fe2ee-3077-464c-9173-5fc7e1172c27]   Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1788)
+I, [2026-08-28T11:51:36.956504 #1420]  INFO -- : [bf1fe2ee-3077-464c-9173-5fc7e1172c27] Completed 200 OK in 15ms (Views: 3.8ms | ActiveRecord: 4.3ms | Allocations: 2577)
+I, [2026-08-28T11:51:37.423553 #1420]  INFO -- : [93282613-03c8-4e28-af9c-8e5814ca739b] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 11:51:37 -0300
+I, [2026-08-28T11:51:37.424362 #1420]  INFO -- : [93282613-03c8-4e28-af9c-8e5814ca739b] Processing by PagesController#users as HTML
+I, [2026-08-28T11:51:37.435513 #1420]  INFO -- : [93282613-03c8-4e28-af9c-8e5814ca739b]   Rendered pages/users.html.erb within layouts/application (Duration: 2.2ms | Allocations: 746)
+I, [2026-08-28T11:51:37.437916 #1420]  INFO -- : [93282613-03c8-4e28-af9c-8e5814ca739b]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1582)
+I, [2026-08-28T11:51:37.438110 #1420]  INFO -- : [93282613-03c8-4e28-af9c-8e5814ca739b] Completed 200 OK in 14ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 2302)
+I, [2026-08-28T11:51:38.123161 #1420]  INFO -- : [02eb23e5-0b62-4721-8b8d-2166387450a9] Started GET "/" for 127.0.0.1 at 2026-08-28 11:51:38 -0300
+I, [2026-08-28T11:51:38.123727 #1420]  INFO -- : [02eb23e5-0b62-4721-8b8d-2166387450a9] Processing by PagesController#home as HTML
+I, [2026-08-28T11:51:38.126573 #1420]  INFO -- : [02eb23e5-0b62-4721-8b8d-2166387450a9]   Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 662)
+I, [2026-08-28T11:51:38.127499 #1420]  INFO -- : [02eb23e5-0b62-4721-8b8d-2166387450a9]   Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1494)
+I, [2026-08-28T11:51:38.127651 #1420]  INFO -- : [02eb23e5-0b62-4721-8b8d-2166387450a9] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1823)
+I, [2026-08-28T11:51:38.673154 #1420]  INFO -- : [0eb1de1b-3abb-4188-9453-0606f27850e7] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 11:51:38 -0300
+I, [2026-08-28T11:51:38.673863 #1420]  INFO -- : [0eb1de1b-3abb-4188-9453-0606f27850e7] Processing by PagesController#users as HTML
+I, [2026-08-28T11:51:38.677656 #1420]  INFO -- : [0eb1de1b-3abb-4188-9453-0606f27850e7]   Rendered pages/users.html.erb within layouts/application (Duration: 0.5ms | Allocations: 419)
+I, [2026-08-28T11:51:38.678852 #1420]  INFO -- : [0eb1de1b-3abb-4188-9453-0606f27850e7]   Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1256)
+I, [2026-08-28T11:51:38.679030 #1420]  INFO -- : [0eb1de1b-3abb-4188-9453-0606f27850e7] Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.8ms | Allocations: 1911)
+I, [2026-08-28T11:51:39.257210 #1420]  INFO -- : [1f8f26ae-96a7-4308-9150-726a23cca17a] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-28 11:51:39 -0300
+I, [2026-08-28T11:51:39.258507 #1420]  INFO -- : [1f8f26ae-96a7-4308-9150-726a23cca17a] Processing by PagesController#admin as HTML
+I, [2026-08-28T11:51:39.263194 #1420]  INFO -- : [1f8f26ae-96a7-4308-9150-726a23cca17a]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.2ms | Allocations: 322)
+I, [2026-08-28T11:51:39.264627 #1420]  INFO -- : [1f8f26ae-96a7-4308-9150-726a23cca17a]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1210)
+I, [2026-08-28T11:51:39.264825 #1420]  INFO -- : [1f8f26ae-96a7-4308-9150-726a23cca17a] Completed 200 OK in 6ms (Views: 2.4ms | ActiveRecord: 1.1ms | Allocations: 1892)
+I, [2026-08-28T11:51:43.775295 #1420]  INFO -- : [bd04e2d0-0871-412a-ae00-773a24e7128a] Started GET "/" for 127.0.0.1 at 2026-08-28 11:51:43 -0300
+I, [2026-08-28T11:51:43.776232 #1420]  INFO -- : [bd04e2d0-0871-412a-ae00-773a24e7128a] Processing by PagesController#home as HTML
+I, [2026-08-28T11:51:43.780918 #1420]  INFO -- : [bd04e2d0-0871-412a-ae00-773a24e7128a]   Rendered pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 662)
+I, [2026-08-28T11:51:43.783418 #1420]  INFO -- : [bd04e2d0-0871-412a-ae00-773a24e7128a]   Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 1494)
+I, [2026-08-28T11:51:43.783780 #1420]  INFO -- : [bd04e2d0-0871-412a-ae00-773a24e7128a] Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.7ms | Allocations: 1830)
+I, [2026-08-28T12:12:50.753355 #1420]  INFO -- : [d75569d6-6e4a-48c5-82e2-83746698371c] Started GET "/admins/edit" for 127.0.0.1 at 2026-08-28 12:12:50 -0300
+I, [2026-08-28T12:12:50.772069 #1420]  INFO -- : [d75569d6-6e4a-48c5-82e2-83746698371c] Processing by Admins::RegistrationsController#edit as HTML
+I, [2026-08-28T12:12:50.850167 #1420]  INFO -- : [d75569d6-6e4a-48c5-82e2-83746698371c]   Rendered admins/registrations/edit.html.erb within layouts/application (Duration: 17.2ms | Allocations: 3545)
+I, [2026-08-28T12:12:50.854377 #1420]  INFO -- : [d75569d6-6e4a-48c5-82e2-83746698371c]   Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 4495)
+I, [2026-08-28T12:12:50.855189 #1420]  INFO -- : [d75569d6-6e4a-48c5-82e2-83746698371c] Completed 200 OK in 83ms (Views: 32.3ms | ActiveRecord: 11.2ms | Allocations: 9296)
+I, [2026-08-28T12:13:07.924569 #1420]  INFO -- : [0f0080ae-54f2-4808-b9f1-e46211ed27ee] Started DELETE "/admins/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:13:07 -0300
+I, [2026-08-28T12:13:07.926412 #1420]  INFO -- : [0f0080ae-54f2-4808-b9f1-e46211ed27ee] Processing by Admins::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:13:07.953595 #1420]  INFO -- : [0f0080ae-54f2-4808-b9f1-e46211ed27ee] Redirected to http://localhost:3002/
+I, [2026-08-28T12:13:07.953889 #1420]  INFO -- : [0f0080ae-54f2-4808-b9f1-e46211ed27ee] Completed 303 See Other in 27ms (ActiveRecord: 0.5ms | Allocations: 1588)
+I, [2026-08-28T12:13:07.957522 #1420]  INFO -- : [aab3f2f1-ef5d-4d36-92eb-8a10571b4552] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:07 -0300
+I, [2026-08-28T12:13:07.958306 #1420]  INFO -- : [aab3f2f1-ef5d-4d36-92eb-8a10571b4552] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:13:07.960882 #1420]  INFO -- : [aab3f2f1-ef5d-4d36-92eb-8a10571b4552]   Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 492)
+I, [2026-08-28T12:13:07.962570 #1420]  INFO -- : [aab3f2f1-ef5d-4d36-92eb-8a10571b4552]   Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1296)
+I, [2026-08-28T12:13:07.962727 #1420]  INFO -- : [aab3f2f1-ef5d-4d36-92eb-8a10571b4552] Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1613)
+I, [2026-08-28T12:13:08.993298 #1420]  INFO -- : [56bbf1d4-2285-4604-9c01-226a3170c087] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:13:08 -0300
+I, [2026-08-28T12:13:08.994541 #1420]  INFO -- : [56bbf1d4-2285-4604-9c01-226a3170c087] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:13:08.999727 #1420]  INFO -- : [56bbf1d4-2285-4604-9c01-226a3170c087]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1674)
+I, [2026-08-28T12:13:09.000718 #1420]  INFO -- : [56bbf1d4-2285-4604-9c01-226a3170c087]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2527)
+I, [2026-08-28T12:13:09.000860 #1420]  INFO -- : [56bbf1d4-2285-4604-9c01-226a3170c087] Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3147)
+I, [2026-08-28T12:13:09.812174 #1420]  INFO -- : [a7cbd0f7-05dc-4c27-a99e-424193a9a8cc] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:13:09 -0300
+I, [2026-08-28T12:13:09.813329 #1420]  INFO -- : [a7cbd0f7-05dc-4c27-a99e-424193a9a8cc] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:13:09.922827 #1420]  INFO -- : [a7cbd0f7-05dc-4c27-a99e-424193a9a8cc]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 107.2ms | Allocations: 1671)
+I, [2026-08-28T12:13:09.924294 #1420]  INFO -- : [a7cbd0f7-05dc-4c27-a99e-424193a9a8cc]   Rendered layout layouts/application.html.erb (Duration: 108.7ms | Allocations: 2525)
+I, [2026-08-28T12:13:09.924460 #1420]  INFO -- : [a7cbd0f7-05dc-4c27-a99e-424193a9a8cc] Completed 200 OK in 111ms (Views: 109.4ms | ActiveRecord: 0.0ms | Allocations: 3154)
+I, [2026-08-28T12:13:11.554710 #1420]  INFO -- : [a53966dd-7f37-4d7e-aabb-c6c3dee36e0e] Started GET "/users/password/new" for 127.0.0.1 at 2026-08-28 12:13:11 -0300
+I, [2026-08-28T12:13:11.555947 #1420]  INFO -- : [a53966dd-7f37-4d7e-aabb-c6c3dee36e0e] Processing by Devise::PasswordsController#new as HTML
+I, [2026-08-28T12:13:11.577203 #1420]  INFO -- : [a53966dd-7f37-4d7e-aabb-c6c3dee36e0e]   Rendered /home/guilh/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/devise-5.0.3/app/views/devise/passwords/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1953)
+I, [2026-08-28T12:13:11.581060 #1420]  INFO -- : [a53966dd-7f37-4d7e-aabb-c6c3dee36e0e]   Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2870)
+I, [2026-08-28T12:13:11.581271 #1420]  INFO -- : [a53966dd-7f37-4d7e-aabb-c6c3dee36e0e] Completed 200 OK in 25ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4032)
+I, [2026-08-28T12:13:11.953358 #1420]  INFO -- : [90887b0b-6b5b-4f86-bace-dd48383c3e18] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:13:11 -0300
+I, [2026-08-28T12:13:11.954164 #1420]  INFO -- : [90887b0b-6b5b-4f86-bace-dd48383c3e18] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:13:11.962383 #1420]  INFO -- : [90887b0b-6b5b-4f86-bace-dd48383c3e18]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1752)
+I, [2026-08-28T12:13:11.963400 #1420]  INFO -- : [90887b0b-6b5b-4f86-bace-dd48383c3e18]   Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2591)
+I, [2026-08-28T12:13:11.963549 #1420]  INFO -- : [90887b0b-6b5b-4f86-bace-dd48383c3e18] Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.6ms | Allocations: 3198)
+I, [2026-08-28T12:13:12.391760 #1420]  INFO -- : [46e8047f-f28b-452d-8aee-a2120c32e5c2] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:13:12 -0300
+I, [2026-08-28T12:13:12.392855 #1420]  INFO -- : [46e8047f-f28b-452d-8aee-a2120c32e5c2] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:13:12.404332 #1420]  INFO -- : [46e8047f-f28b-452d-8aee-a2120c32e5c2]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1747)
+I, [2026-08-28T12:13:12.405544 #1420]  INFO -- : [46e8047f-f28b-452d-8aee-a2120c32e5c2]   Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2586)
+I, [2026-08-28T12:13:12.405701 #1420]  INFO -- : [46e8047f-f28b-452d-8aee-a2120c32e5c2] Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.7ms | Allocations: 3216)
+I, [2026-08-28T12:13:13.725751 #1420]  INFO -- : [d753faef-9632-4c6e-9cfd-25a95184fa16] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:13:13 -0300
+I, [2026-08-28T12:13:13.727154 #1420]  INFO -- : [d753faef-9632-4c6e-9cfd-25a95184fa16] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:13:13.739361 #1420]  INFO -- : [d753faef-9632-4c6e-9cfd-25a95184fa16]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2052)
+I, [2026-08-28T12:13:13.740434 #1420]  INFO -- : [d753faef-9632-4c6e-9cfd-25a95184fa16]   Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2892)
+I, [2026-08-28T12:13:13.740613 #1420]  INFO -- : [d753faef-9632-4c6e-9cfd-25a95184fa16] Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 1.0ms | Allocations: 3623)
+I, [2026-08-28T12:13:26.728465 #1420]  INFO -- : [2d689eb8-f9ce-4e32-95e1-d8a3d7c94727] Started POST "/admins" for 127.0.0.1 at 2026-08-28 12:13:26 -0300
+I, [2026-08-28T12:13:26.729238 #1420]  INFO -- : [2d689eb8-f9ce-4e32-95e1-d8a3d7c94727] Processing by Admins::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-28T12:13:26.729304 #1420]  INFO -- : [2d689eb8-f9ce-4e32-95e1-d8a3d7c94727]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin2@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Inscrever-se"}
+I, [2026-08-28T12:13:26.969528 #1420]  INFO -- : [2d689eb8-f9ce-4e32-95e1-d8a3d7c94727] Redirected to http://localhost:3002/
+I, [2026-08-28T12:13:26.969667 #1420]  INFO -- : [2d689eb8-f9ce-4e32-95e1-d8a3d7c94727] Completed 303 See Other in 240ms (ActiveRecord: 15.7ms | Allocations: 2373)
+I, [2026-08-28T12:13:26.973150 #1420]  INFO -- : [60cafc2c-5057-46d3-818f-8acbfd6b867e] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:26 -0300
+I, [2026-08-28T12:13:26.973698 #1420]  INFO -- : [60cafc2c-5057-46d3-818f-8acbfd6b867e] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:13:26.976503 #1420]  INFO -- : [60cafc2c-5057-46d3-818f-8acbfd6b867e]   Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 662)
+I, [2026-08-28T12:13:26.978474 #1420]  INFO -- : [60cafc2c-5057-46d3-818f-8acbfd6b867e]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1497)
+I, [2026-08-28T12:13:26.978617 #1420]  INFO -- : [60cafc2c-5057-46d3-818f-8acbfd6b867e] Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 1840)
+I, [2026-08-28T12:13:28.493119 #1420]  INFO -- : [05c3f0d2-bd9f-42eb-a907-837742dd1ceb] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:28 -0300
+I, [2026-08-28T12:13:28.494440 #1420]  INFO -- : [05c3f0d2-bd9f-42eb-a907-837742dd1ceb] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:28.499409 #1420]  INFO -- : [05c3f0d2-bd9f-42eb-a907-837742dd1ceb]   Rendered pages/users.html.erb within layouts/application (Duration: 0.9ms | Allocations: 419)
+I, [2026-08-28T12:13:28.502698 #1420]  INFO -- : [05c3f0d2-bd9f-42eb-a907-837742dd1ceb]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1255)
+I, [2026-08-28T12:13:28.502889 #1420]  INFO -- : [05c3f0d2-bd9f-42eb-a907-837742dd1ceb] Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.9ms | Allocations: 1934)
+I, [2026-08-28T12:13:29.576441 #1420]  INFO -- : [a9488538-493c-4716-8505-08dc7909c021] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:29 -0300
+I, [2026-08-28T12:13:29.577140 #1420]  INFO -- : [a9488538-493c-4716-8505-08dc7909c021] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:29.581358 #1420]  INFO -- : [a9488538-493c-4716-8505-08dc7909c021]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-28T12:13:29.582662 #1420]  INFO -- : [a9488538-493c-4716-8505-08dc7909c021]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1255)
+I, [2026-08-28T12:13:29.582855 #1420]  INFO -- : [a9488538-493c-4716-8505-08dc7909c021] Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.8ms | Allocations: 1931)
+I, [2026-08-28T12:13:33.283207 #1420]  INFO -- : [223557e6-3e2a-4775-9708-b848f43ee832] Started DELETE "/admins/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:13:33 -0300
+I, [2026-08-28T12:13:33.284433 #1420]  INFO -- : [223557e6-3e2a-4775-9708-b848f43ee832] Processing by Admins::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:13:33.288462 #1420]  INFO -- : [223557e6-3e2a-4775-9708-b848f43ee832] Redirected to http://localhost:3002/
+I, [2026-08-28T12:13:33.288572 #1420]  INFO -- : [223557e6-3e2a-4775-9708-b848f43ee832] Completed 303 See Other in 4ms (ActiveRecord: 0.5ms | Allocations: 904)
+I, [2026-08-28T12:13:33.291938 #1420]  INFO -- : [38d76649-05e5-4c7a-862e-3091903f8a99] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:33 -0300
+I, [2026-08-28T12:13:33.292578 #1420]  INFO -- : [38d76649-05e5-4c7a-862e-3091903f8a99] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:13:33.294037 #1420]  INFO -- : [38d76649-05e5-4c7a-862e-3091903f8a99]   Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 492)
+I, [2026-08-28T12:13:33.295885 #1420]  INFO -- : [38d76649-05e5-4c7a-862e-3091903f8a99]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1296)
+I, [2026-08-28T12:13:33.295998 #1420]  INFO -- : [38d76649-05e5-4c7a-862e-3091903f8a99] Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1622)
+I, [2026-08-28T12:13:34.189321 #1420]  INFO -- : [9cef5439-aca4-4ad0-ab2d-8d49e3510604] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:13:34 -0300
+I, [2026-08-28T12:13:34.194135 #1420]  INFO -- : [9cef5439-aca4-4ad0-ab2d-8d49e3510604] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:13:34.200415 #1420]  INFO -- : [9cef5439-aca4-4ad0-ab2d-8d49e3510604]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1672)
+I, [2026-08-28T12:13:34.201655 #1420]  INFO -- : [9cef5439-aca4-4ad0-ab2d-8d49e3510604]   Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2525)
+I, [2026-08-28T12:13:34.201867 #1420]  INFO -- : [9cef5439-aca4-4ad0-ab2d-8d49e3510604] Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3137)
+I, [2026-08-28T12:13:35.145995 #1420]  INFO -- : [f58ccf62-f78b-4908-98e8-e2a9bc5febbd] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:13:35 -0300
+I, [2026-08-28T12:13:35.147785 #1420]  INFO -- : [f58ccf62-f78b-4908-98e8-e2a9bc5febbd] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:13:35.154289 #1420]  INFO -- : [f58ccf62-f78b-4908-98e8-e2a9bc5febbd]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1750)
+I, [2026-08-28T12:13:35.156171 #1420]  INFO -- : [f58ccf62-f78b-4908-98e8-e2a9bc5febbd]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2589)
+I, [2026-08-28T12:13:35.156321 #1420]  INFO -- : [f58ccf62-f78b-4908-98e8-e2a9bc5febbd] Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.7ms | Allocations: 3207)
+I, [2026-08-28T12:13:36.658190 #1420]  INFO -- : [205b1066-cd74-44c2-bdec-508fdaad274a] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:13:36 -0300
+I, [2026-08-28T12:13:36.659067 #1420]  INFO -- : [205b1066-cd74-44c2-bdec-508fdaad274a] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:13:36.664919 #1420]  INFO -- : [205b1066-cd74-44c2-bdec-508fdaad274a]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1580)
+I, [2026-08-28T12:13:36.666026 #1420]  INFO -- : [205b1066-cd74-44c2-bdec-508fdaad274a]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2418)
+I, [2026-08-28T12:13:36.666186 #1420]  INFO -- : [205b1066-cd74-44c2-bdec-508fdaad274a] Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.8ms | Allocations: 3099)
+I, [2026-08-28T12:13:47.163877 #1420]  INFO -- : [40bfd1e6-0cc7-4792-bbd9-a5c4040dafaf] Started POST "/admins" for 127.0.0.1 at 2026-08-28 12:13:47 -0300
+I, [2026-08-28T12:13:47.165239 #1420]  INFO -- : [40bfd1e6-0cc7-4792-bbd9-a5c4040dafaf] Processing by Admins::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-28T12:13:47.165342 #1420]  INFO -- : [40bfd1e6-0cc7-4792-bbd9-a5c4040dafaf]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin3@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Inscrever-se"}
+I, [2026-08-28T12:13:47.393529 #1420]  INFO -- : [40bfd1e6-0cc7-4792-bbd9-a5c4040dafaf] Redirected to http://localhost:3002/
+I, [2026-08-28T12:13:47.393623 #1420]  INFO -- : [40bfd1e6-0cc7-4792-bbd9-a5c4040dafaf] Completed 303 See Other in 228ms (ActiveRecord: 9.5ms | Allocations: 1474)
+I, [2026-08-28T12:13:47.396196 #1420]  INFO -- : [b074b340-0c0c-4156-9ed6-abef631b8f50] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:47 -0300
+I, [2026-08-28T12:13:47.396675 #1420]  INFO -- : [b074b340-0c0c-4156-9ed6-abef631b8f50] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:13:47.399395 #1420]  INFO -- : [b074b340-0c0c-4156-9ed6-abef631b8f50]   Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 662)
+I, [2026-08-28T12:13:47.400226 #1420]  INFO -- : [b074b340-0c0c-4156-9ed6-abef631b8f50]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1497)
+I, [2026-08-28T12:13:47.400343 #1420]  INFO -- : [b074b340-0c0c-4156-9ed6-abef631b8f50] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1829)
+I, [2026-08-28T12:13:48.911795 #1420]  INFO -- : [bd632560-e161-4632-9f91-720007c03d83] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:48 -0300
+I, [2026-08-28T12:13:48.912358 #1420]  INFO -- : [bd632560-e161-4632-9f91-720007c03d83] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:48.915373 #1420]  INFO -- : [bd632560-e161-4632-9f91-720007c03d83]   Rendered pages/users.html.erb within layouts/application (Duration: 0.5ms | Allocations: 419)
+I, [2026-08-28T12:13:48.916163 #1420]  INFO -- : [bd632560-e161-4632-9f91-720007c03d83]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1255)
+I, [2026-08-28T12:13:48.916281 #1420]  INFO -- : [bd632560-e161-4632-9f91-720007c03d83] Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.5ms | Allocations: 1913)
+I, [2026-08-28T12:13:49.843376 #1420]  INFO -- : [1c2fb742-dcd8-4164-8a81-ef4f8feebf2c] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:49 -0300
+I, [2026-08-28T12:13:49.844322 #1420]  INFO -- : [1c2fb742-dcd8-4164-8a81-ef4f8feebf2c] Processing by PagesController#home as HTML
+I, [2026-08-28T12:13:49.849973 #1420]  INFO -- : [1c2fb742-dcd8-4164-8a81-ef4f8feebf2c]   Rendered pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 662)
+I, [2026-08-28T12:13:49.850923 #1420]  INFO -- : [1c2fb742-dcd8-4164-8a81-ef4f8feebf2c]   Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1494)
+I, [2026-08-28T12:13:49.851070 #1420]  INFO -- : [1c2fb742-dcd8-4164-8a81-ef4f8feebf2c] Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1853)
+I, [2026-08-28T12:13:50.728464 #1420]  INFO -- : [36e84cbd-c8f3-4e75-be89-9ce5b4572d00] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:50 -0300
+I, [2026-08-28T12:13:50.729309 #1420]  INFO -- : [36e84cbd-c8f3-4e75-be89-9ce5b4572d00] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:50.732928 #1420]  INFO -- : [36e84cbd-c8f3-4e75-be89-9ce5b4572d00]   Rendered pages/users.html.erb within layouts/application (Duration: 0.4ms | Allocations: 419)
+I, [2026-08-28T12:13:50.735239 #1420]  INFO -- : [36e84cbd-c8f3-4e75-be89-9ce5b4572d00]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1255)
+I, [2026-08-28T12:13:50.735377 #1420]  INFO -- : [36e84cbd-c8f3-4e75-be89-9ce5b4572d00] Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 1919)
+I, [2026-08-28T12:13:51.295263 #1420]  INFO -- : [1c4bc7b3-98ca-46c2-9dcb-825f6f424a7e] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:51 -0300
+I, [2026-08-28T12:13:51.295938 #1420]  INFO -- : [1c4bc7b3-98ca-46c2-9dcb-825f6f424a7e] Processing by PagesController#home as HTML
+I, [2026-08-28T12:13:51.298961 #1420]  INFO -- : [1c4bc7b3-98ca-46c2-9dcb-825f6f424a7e]   Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 662)
+I, [2026-08-28T12:13:51.299963 #1420]  INFO -- : [1c4bc7b3-98ca-46c2-9dcb-825f6f424a7e]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1494)
+I, [2026-08-28T12:13:51.300148 #1420]  INFO -- : [1c4bc7b3-98ca-46c2-9dcb-825f6f424a7e] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1826)
+I, [2026-08-28T12:13:52.144262 #1420]  INFO -- : [09cb4319-0cb8-498d-95f5-98f057828f1a] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:52 -0300
+I, [2026-08-28T12:13:52.145084 #1420]  INFO -- : [09cb4319-0cb8-498d-95f5-98f057828f1a] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:52.149240 #1420]  INFO -- : [09cb4319-0cb8-498d-95f5-98f057828f1a]   Rendered pages/users.html.erb within layouts/application (Duration: 0.7ms | Allocations: 419)
+I, [2026-08-28T12:13:52.150388 #1420]  INFO -- : [09cb4319-0cb8-498d-95f5-98f057828f1a]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1255)
+I, [2026-08-28T12:13:52.150548 #1420]  INFO -- : [09cb4319-0cb8-498d-95f5-98f057828f1a] Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.7ms | Allocations: 1946)
+I, [2026-08-28T12:13:52.709629 #1420]  INFO -- : [55e79ea9-9ee6-42ab-8c4c-410de14fbfab] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:52 -0300
+I, [2026-08-28T12:13:52.710243 #1420]  INFO -- : [55e79ea9-9ee6-42ab-8c4c-410de14fbfab] Processing by PagesController#home as HTML
+I, [2026-08-28T12:13:52.712787 #1420]  INFO -- : [55e79ea9-9ee6-42ab-8c4c-410de14fbfab]   Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 662)
+I, [2026-08-28T12:13:52.713617 #1420]  INFO -- : [55e79ea9-9ee6-42ab-8c4c-410de14fbfab]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1494)
+I, [2026-08-28T12:13:52.713741 #1420]  INFO -- : [55e79ea9-9ee6-42ab-8c4c-410de14fbfab] Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1820)
+I, [2026-08-28T12:13:53.461746 #1420]  INFO -- : [e12c5909-44af-4201-868c-1a4f32ca0d35] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-28 12:13:53 -0300
+I, [2026-08-28T12:13:53.462592 #1420]  INFO -- : [e12c5909-44af-4201-868c-1a4f32ca0d35] Processing by PagesController#admin as HTML
+I, [2026-08-28T12:13:53.466862 #1420]  INFO -- : [e12c5909-44af-4201-868c-1a4f32ca0d35]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.5ms | Allocations: 322)
+I, [2026-08-28T12:13:53.467989 #1420]  INFO -- : [e12c5909-44af-4201-868c-1a4f32ca0d35]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1210)
+I, [2026-08-28T12:13:53.468116 #1420]  INFO -- : [e12c5909-44af-4201-868c-1a4f32ca0d35] Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.3ms | Allocations: 1880)
+I, [2026-08-28T12:13:53.676006 #1420]  INFO -- : [07b1448e-1ee9-4e51-8d13-f7a2a286486a] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:13:53 -0300
+I, [2026-08-28T12:13:53.678165 #1420]  INFO -- : [07b1448e-1ee9-4e51-8d13-f7a2a286486a] Processing by PagesController#users as HTML
+I, [2026-08-28T12:13:53.682462 #1420]  INFO -- : [07b1448e-1ee9-4e51-8d13-f7a2a286486a]   Rendered pages/users.html.erb within layouts/application (Duration: 0.7ms | Allocations: 419)
+I, [2026-08-28T12:13:53.683724 #1420]  INFO -- : [07b1448e-1ee9-4e51-8d13-f7a2a286486a]   Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1255)
+I, [2026-08-28T12:13:53.683849 #1420]  INFO -- : [07b1448e-1ee9-4e51-8d13-f7a2a286486a] Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 0.7ms | Allocations: 1931)
+I, [2026-08-28T12:13:54.343952 #1420]  INFO -- : [764cbc56-26fd-4c5d-8ce9-08f48894f445] Started GET "/admins/edit" for 127.0.0.1 at 2026-08-28 12:13:54 -0300
+I, [2026-08-28T12:13:54.345168 #1420]  INFO -- : [764cbc56-26fd-4c5d-8ce9-08f48894f445] Processing by Admins::RegistrationsController#edit as HTML
+I, [2026-08-28T12:13:54.354310 #1420]  INFO -- : [764cbc56-26fd-4c5d-8ce9-08f48894f445]   Rendered admins/registrations/edit.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2412)
+I, [2026-08-28T12:13:54.355690 #1420]  INFO -- : [764cbc56-26fd-4c5d-8ce9-08f48894f445]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3277)
+I, [2026-08-28T12:13:54.355889 #1420]  INFO -- : [764cbc56-26fd-4c5d-8ce9-08f48894f445] Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.7ms | Allocations: 4019)
+I, [2026-08-28T12:13:55.331634 #1420]  INFO -- : [7b3b04c9-113c-4cd0-9352-45799407d33c] Started DELETE "/admins/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:13:55 -0300
+I, [2026-08-28T12:13:55.333502 #1420]  INFO -- : [7b3b04c9-113c-4cd0-9352-45799407d33c] Processing by Admins::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:13:55.337574 #1420]  INFO -- : [7b3b04c9-113c-4cd0-9352-45799407d33c] Redirected to http://localhost:3002/
+I, [2026-08-28T12:13:55.337643 #1420]  INFO -- : [7b3b04c9-113c-4cd0-9352-45799407d33c] Completed 303 See Other in 4ms (ActiveRecord: 0.4ms | Allocations: 894)
+I, [2026-08-28T12:13:55.340115 #1420]  INFO -- : [92ca2013-7a0c-4584-96f6-6b5e631eff7e] Started GET "/" for 127.0.0.1 at 2026-08-28 12:13:55 -0300
+I, [2026-08-28T12:13:55.340555 #1420]  INFO -- : [92ca2013-7a0c-4584-96f6-6b5e631eff7e] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:13:55.341569 #1420]  INFO -- : [92ca2013-7a0c-4584-96f6-6b5e631eff7e]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 492)
+I, [2026-08-28T12:13:55.342522 #1420]  INFO -- : [92ca2013-7a0c-4584-96f6-6b5e631eff7e]   Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1296)
+I, [2026-08-28T12:13:55.342650 #1420]  INFO -- : [92ca2013-7a0c-4584-96f6-6b5e631eff7e] Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1628)
+I, [2026-08-28T12:13:56.279493 #1420]  INFO -- : [09d619bb-19c2-4ca8-a099-a3440bea418b] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:13:56 -0300
+I, [2026-08-28T12:13:56.280266 #1420]  INFO -- : [09d619bb-19c2-4ca8-a099-a3440bea418b] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:13:56.283507 #1420]  INFO -- : [09d619bb-19c2-4ca8-a099-a3440bea418b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1671)
+I, [2026-08-28T12:13:56.284370 #1420]  INFO -- : [09d619bb-19c2-4ca8-a099-a3440bea418b]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2524)
+I, [2026-08-28T12:13:56.284533 #1420]  INFO -- : [09d619bb-19c2-4ca8-a099-a3440bea418b] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3147)
+I, [2026-08-28T12:13:58.617076 #1420]  INFO -- : [6310d596-5172-42da-8c7f-017fbec9dd42] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:13:58 -0300
+I, [2026-08-28T12:13:58.618274 #1420]  INFO -- : [6310d596-5172-42da-8c7f-017fbec9dd42] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:13:58.623773 #1420]  INFO -- : [6310d596-5172-42da-8c7f-017fbec9dd42]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1750)
+I, [2026-08-28T12:13:58.624626 #1420]  INFO -- : [6310d596-5172-42da-8c7f-017fbec9dd42]   Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2589)
+I, [2026-08-28T12:13:58.624807 #1420]  INFO -- : [6310d596-5172-42da-8c7f-017fbec9dd42] Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.5ms | Allocations: 3210)
+I, [2026-08-28T12:13:59.708406 #1420]  INFO -- : [95b2f7e7-a39a-4f44-8184-b95487257e76] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:13:59 -0300
+I, [2026-08-28T12:13:59.709440 #1420]  INFO -- : [95b2f7e7-a39a-4f44-8184-b95487257e76] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:13:59.713890 #1420]  INFO -- : [95b2f7e7-a39a-4f44-8184-b95487257e76]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1580)
+I, [2026-08-28T12:13:59.714600 #1420]  INFO -- : [95b2f7e7-a39a-4f44-8184-b95487257e76]   Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2418)
+I, [2026-08-28T12:13:59.714720 #1420]  INFO -- : [95b2f7e7-a39a-4f44-8184-b95487257e76] Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.5ms | Allocations: 3081)
+I, [2026-08-28T12:14:00.009605 #1420]  INFO -- : [0ba3487f-fa22-4b3d-bf86-0fe0149c42f9] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:14:00 -0300
+I, [2026-08-28T12:14:00.011207 #1420]  INFO -- : [0ba3487f-fa22-4b3d-bf86-0fe0149c42f9] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:14:00.017012 #1420]  INFO -- : [0ba3487f-fa22-4b3d-bf86-0fe0149c42f9]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1581)
+I, [2026-08-28T12:14:00.018329 #1420]  INFO -- : [0ba3487f-fa22-4b3d-bf86-0fe0149c42f9]   Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2419)
+I, [2026-08-28T12:14:00.018545 #1420]  INFO -- : [0ba3487f-fa22-4b3d-bf86-0fe0149c42f9] Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.6ms | Allocations: 3088)
+I, [2026-08-28T12:14:49.700649 #1420]  INFO -- : [757238ba-910b-4f9a-a0e7-9325c8b0d02e] Started POST "/admins" for 127.0.0.1 at 2026-08-28 12:14:49 -0300
+I, [2026-08-28T12:14:49.702921 #1420]  INFO -- : [757238ba-910b-4f9a-a0e7-9325c8b0d02e] Processing by Admins::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-28T12:14:49.702962 #1420]  INFO -- : [757238ba-910b-4f9a-a0e7-9325c8b0d02e]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin4@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Inscrever-se"}
+I, [2026-08-28T12:14:49.929731 #1420]  INFO -- : [757238ba-910b-4f9a-a0e7-9325c8b0d02e] Redirected to http://localhost:3002/
+I, [2026-08-28T12:14:49.929870 #1420]  INFO -- : [757238ba-910b-4f9a-a0e7-9325c8b0d02e] Completed 303 See Other in 227ms (ActiveRecord: 8.9ms | Allocations: 1469)
+I, [2026-08-28T12:14:49.932677 #1420]  INFO -- : [67beb401-19e0-49b2-896f-2a638b6d7c6d] Started GET "/" for 127.0.0.1 at 2026-08-28 12:14:49 -0300
+I, [2026-08-28T12:14:49.933163 #1420]  INFO -- : [67beb401-19e0-49b2-896f-2a638b6d7c6d] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:14:49.936183 #1420]  INFO -- : [67beb401-19e0-49b2-896f-2a638b6d7c6d]   Rendered pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 662)
+I, [2026-08-28T12:14:49.937309 #1420]  INFO -- : [67beb401-19e0-49b2-896f-2a638b6d7c6d]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1497)
+I, [2026-08-28T12:14:49.937448 #1420]  INFO -- : [67beb401-19e0-49b2-896f-2a638b6d7c6d] Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 1853)
+I, [2026-08-28T12:14:50.850220 #1420]  INFO -- : [69ec7138-4701-4ada-805c-8786be1ace54] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:14:50 -0300
+I, [2026-08-28T12:14:50.851219 #1420]  INFO -- : [69ec7138-4701-4ada-805c-8786be1ace54] Processing by PagesController#users as HTML
+I, [2026-08-28T12:14:50.855956 #1420]  INFO -- : [69ec7138-4701-4ada-805c-8786be1ace54]   Rendered pages/users.html.erb within layouts/application (Duration: 0.9ms | Allocations: 419)
+I, [2026-08-28T12:14:50.857499 #1420]  INFO -- : [69ec7138-4701-4ada-805c-8786be1ace54]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1255)
+I, [2026-08-28T12:14:50.857748 #1420]  INFO -- : [69ec7138-4701-4ada-805c-8786be1ace54] Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1901)
+I, [2026-08-28T12:14:52.214610 #1420]  INFO -- : [25f40046-04db-46d0-a69a-5fbe1c50ed49] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-28 12:14:52 -0300
+I, [2026-08-28T12:14:52.215378 #1420]  INFO -- : [25f40046-04db-46d0-a69a-5fbe1c50ed49] Processing by PagesController#admin as HTML
+I, [2026-08-28T12:14:52.219775 #1420]  INFO -- : [25f40046-04db-46d0-a69a-5fbe1c50ed49]   Rendered pages/admin.html.erb within layouts/application (Duration: 1.2ms | Allocations: 322)
+I, [2026-08-28T12:14:52.221004 #1420]  INFO -- : [25f40046-04db-46d0-a69a-5fbe1c50ed49]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1210)
+I, [2026-08-28T12:14:52.221180 #1420]  INFO -- : [25f40046-04db-46d0-a69a-5fbe1c50ed49] Completed 200 OK in 6ms (Views: 2.3ms | ActiveRecord: 1.2ms | Allocations: 1910)
+I, [2026-08-28T12:14:53.219013 #1420]  INFO -- : [81280411-bafe-46e3-9c1c-9d974f6ed8ce] Started DELETE "/admins/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:14:53 -0300
+I, [2026-08-28T12:14:53.219751 #1420]  INFO -- : [81280411-bafe-46e3-9c1c-9d974f6ed8ce] Processing by Admins::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:14:53.223433 #1420]  INFO -- : [81280411-bafe-46e3-9c1c-9d974f6ed8ce] Redirected to http://localhost:3002/
+I, [2026-08-28T12:14:53.223795 #1420]  INFO -- : [81280411-bafe-46e3-9c1c-9d974f6ed8ce] Completed 303 See Other in 4ms (ActiveRecord: 0.6ms | Allocations: 879)
+I, [2026-08-28T12:14:53.228146 #1420]  INFO -- : [07c4ad1d-c7ca-44a3-b6d9-9e3017a350f6] Started GET "/" for 127.0.0.1 at 2026-08-28 12:14:53 -0300
+I, [2026-08-28T12:14:53.228889 #1420]  INFO -- : [07c4ad1d-c7ca-44a3-b6d9-9e3017a350f6] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:14:53.235878 #1420]  INFO -- : [07c4ad1d-c7ca-44a3-b6d9-9e3017a350f6]   Rendered pages/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 492)
+I, [2026-08-28T12:14:53.236718 #1420]  INFO -- : [07c4ad1d-c7ca-44a3-b6d9-9e3017a350f6]   Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1297)
+I, [2026-08-28T12:14:53.236883 #1420]  INFO -- : [07c4ad1d-c7ca-44a3-b6d9-9e3017a350f6] Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 1615)
+I, [2026-08-28T12:14:54.026636 #1420]  INFO -- : [8ae20089-d4c4-49d6-a5a5-9ba328da753c] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:14:54 -0300
+I, [2026-08-28T12:14:54.027985 #1420]  INFO -- : [8ae20089-d4c4-49d6-a5a5-9ba328da753c] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:14:54.031975 #1420]  INFO -- : [8ae20089-d4c4-49d6-a5a5-9ba328da753c]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1677)
+I, [2026-08-28T12:14:54.033040 #1420]  INFO -- : [8ae20089-d4c4-49d6-a5a5-9ba328da753c]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2530)
+I, [2026-08-28T12:14:54.033181 #1420]  INFO -- : [8ae20089-d4c4-49d6-a5a5-9ba328da753c] Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3158)
+I, [2026-08-28T12:14:54.729589 #1420]  INFO -- : [8faea8f3-22f6-444e-8a70-d821653ce1bc] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:14:54 -0300
+I, [2026-08-28T12:14:54.730907 #1420]  INFO -- : [8faea8f3-22f6-444e-8a70-d821653ce1bc] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:14:54.738466 #1420]  INFO -- : [8faea8f3-22f6-444e-8a70-d821653ce1bc]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1750)
+I, [2026-08-28T12:14:54.739566 #1420]  INFO -- : [8faea8f3-22f6-444e-8a70-d821653ce1bc]   Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2589)
+I, [2026-08-28T12:14:54.739717 #1420]  INFO -- : [8faea8f3-22f6-444e-8a70-d821653ce1bc] Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.8ms | Allocations: 3195)
+I, [2026-08-28T12:14:56.744321 #1420]  INFO -- : [3c7e87e3-84f1-4e86-804d-e097083e8d80] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:14:56 -0300
+I, [2026-08-28T12:14:56.746238 #1420]  INFO -- : [3c7e87e3-84f1-4e86-804d-e097083e8d80] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:14:56.753208 #1420]  INFO -- : [3c7e87e3-84f1-4e86-804d-e097083e8d80]   Rendered admins/registrations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1581)
+I, [2026-08-28T12:14:56.754630 #1420]  INFO -- : [3c7e87e3-84f1-4e86-804d-e097083e8d80]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2419)
+I, [2026-08-28T12:14:56.754750 #1420]  INFO -- : [3c7e87e3-84f1-4e86-804d-e097083e8d80] Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.8ms | Allocations: 3100)
+I, [2026-08-28T12:15:26.843042 #1420]  INFO -- : [ffb13188-f330-4e66-8b64-e855f4c56966] Started POST "/admins" for 127.0.0.1 at 2026-08-28 12:15:26 -0300
+I, [2026-08-28T12:15:26.844018 #1420]  INFO -- : [ffb13188-f330-4e66-8b64-e855f4c56966] Processing by Admins::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-28T12:15:26.844114 #1420]  INFO -- : [ffb13188-f330-4e66-8b64-e855f4c56966]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin5@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Inscrever-se"}
+I, [2026-08-28T12:15:27.070531 #1420]  INFO -- : [ffb13188-f330-4e66-8b64-e855f4c56966] Redirected to http://localhost:3002/
+I, [2026-08-28T12:15:27.070621 #1420]  INFO -- : [ffb13188-f330-4e66-8b64-e855f4c56966] Completed 303 See Other in 226ms (ActiveRecord: 9.9ms | Allocations: 1459)
+I, [2026-08-28T12:15:27.073158 #1420]  INFO -- : [c9f18c4c-afd5-4e81-bb66-5b2129a373f1] Started GET "/" for 127.0.0.1 at 2026-08-28 12:15:27 -0300
+I, [2026-08-28T12:15:27.073574 #1420]  INFO -- : [c9f18c4c-afd5-4e81-bb66-5b2129a373f1] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:15:27.075996 #1420]  INFO -- : [c9f18c4c-afd5-4e81-bb66-5b2129a373f1]   Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 662)
+I, [2026-08-28T12:15:27.077758 #1420]  INFO -- : [c9f18c4c-afd5-4e81-bb66-5b2129a373f1]   Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1497)
+I, [2026-08-28T12:15:27.078086 #1420]  INFO -- : [c9f18c4c-afd5-4e81-bb66-5b2129a373f1] Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 1844)
+I, [2026-08-28T12:15:28.195253 #1420]  INFO -- : [3b434506-9528-412e-9cc9-1b29ae15f92b] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:15:28 -0300
+I, [2026-08-28T12:15:28.196981 #1420]  INFO -- : [3b434506-9528-412e-9cc9-1b29ae15f92b] Processing by PagesController#users as HTML
+I, [2026-08-28T12:15:28.200716 #1420]  INFO -- : [3b434506-9528-412e-9cc9-1b29ae15f92b]   Rendered pages/users.html.erb within layouts/application (Duration: 0.6ms | Allocations: 419)
+I, [2026-08-28T12:15:28.202274 #1420]  INFO -- : [3b434506-9528-412e-9cc9-1b29ae15f92b]   Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1255)
+I, [2026-08-28T12:15:28.202430 #1420]  INFO -- : [3b434506-9528-412e-9cc9-1b29ae15f92b] Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 1922)
+I, [2026-08-28T12:15:29.749740 #1420]  INFO -- : [0579ff33-41a3-49c6-9beb-6f118900bbea] Started GET "/admins/edit" for 127.0.0.1 at 2026-08-28 12:15:29 -0300
+I, [2026-08-28T12:15:29.750856 #1420]  INFO -- : [0579ff33-41a3-49c6-9beb-6f118900bbea] Processing by Admins::RegistrationsController#edit as HTML
+I, [2026-08-28T12:15:29.758343 #1420]  INFO -- : [0579ff33-41a3-49c6-9beb-6f118900bbea]   Rendered admins/registrations/edit.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2410)
+I, [2026-08-28T12:15:29.759512 #1420]  INFO -- : [0579ff33-41a3-49c6-9beb-6f118900bbea]   Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3276)
+I, [2026-08-28T12:15:29.759639 #1420]  INFO -- : [0579ff33-41a3-49c6-9beb-6f118900bbea] Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.8ms | Allocations: 4051)
+I, [2026-08-28T12:15:40.725012 #1420]  INFO -- : [5a16b1f9-6eb9-4fc2-8411-73643b8a75f7] Started DELETE "/admins/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:15:40 -0300
+I, [2026-08-28T12:15:40.727521 #1420]  INFO -- : [5a16b1f9-6eb9-4fc2-8411-73643b8a75f7] Processing by Admins::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:15:40.734436 #1420]  INFO -- : [5a16b1f9-6eb9-4fc2-8411-73643b8a75f7] Redirected to http://localhost:3002/
+I, [2026-08-28T12:15:40.734575 #1420]  INFO -- : [5a16b1f9-6eb9-4fc2-8411-73643b8a75f7] Completed 303 See Other in 7ms (ActiveRecord: 0.5ms | Allocations: 894)
+I, [2026-08-28T12:15:40.737386 #1420]  INFO -- : [9ac0a408-0899-4c5c-a906-b7916c29e574] Started GET "/" for 127.0.0.1 at 2026-08-28 12:15:40 -0300
+I, [2026-08-28T12:15:40.738306 #1420]  INFO -- : [9ac0a408-0899-4c5c-a906-b7916c29e574] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:15:40.739922 #1420]  INFO -- : [9ac0a408-0899-4c5c-a906-b7916c29e574]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 492)
+I, [2026-08-28T12:15:40.740920 #1420]  INFO -- : [9ac0a408-0899-4c5c-a906-b7916c29e574]   Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1296)
+I, [2026-08-28T12:15:40.741028 #1420]  INFO -- : [9ac0a408-0899-4c5c-a906-b7916c29e574] Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1628)
+I, [2026-08-28T12:15:41.664109 #1420]  INFO -- : [60ebf037-42d6-4000-8743-258f22e58fe5] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:15:41 -0300
+I, [2026-08-28T12:15:41.665535 #1420]  INFO -- : [60ebf037-42d6-4000-8743-258f22e58fe5] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:15:41.676972 #1420]  INFO -- : [60ebf037-42d6-4000-8743-258f22e58fe5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1671)
+I, [2026-08-28T12:15:41.678264 #1420]  INFO -- : [60ebf037-42d6-4000-8743-258f22e58fe5]   Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2524)
+I, [2026-08-28T12:15:41.678461 #1420]  INFO -- : [60ebf037-42d6-4000-8743-258f22e58fe5] Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3159)
+I, [2026-08-28T12:15:42.831080 #1420]  INFO -- : [23cf5f8a-e070-4083-b78f-953e67edae85] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:15:42 -0300
+I, [2026-08-28T12:15:42.832244 #1420]  INFO -- : [23cf5f8a-e070-4083-b78f-953e67edae85] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:15:42.838006 #1420]  INFO -- : [23cf5f8a-e070-4083-b78f-953e67edae85]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1671)
+I, [2026-08-28T12:15:42.839063 #1420]  INFO -- : [23cf5f8a-e070-4083-b78f-953e67edae85]   Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2510)
+I, [2026-08-28T12:15:42.839205 #1420]  INFO -- : [23cf5f8a-e070-4083-b78f-953e67edae85] Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.5ms | Allocations: 3125)
+I, [2026-08-28T12:15:44.763380 #1420]  INFO -- : [f6a04a97-018d-4033-938f-f64ee5e761e8] Started GET "/admins/password/new" for 127.0.0.1 at 2026-08-28 12:15:44 -0300
+I, [2026-08-28T12:15:44.764194 #1420]  INFO -- : [f6a04a97-018d-4033-938f-f64ee5e761e8] Processing by Devise::PasswordsController#new as HTML
+I, [2026-08-28T12:15:44.766508 #1420]  INFO -- : [f6a04a97-018d-4033-938f-f64ee5e761e8]   Rendered /home/guilh/.asdf/installs/ruby/3.2.2/lib/ruby/gems/3.2.0/gems/devise-5.0.3/app/views/devise/passwords/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 812)
+I, [2026-08-28T12:15:44.767674 #1420]  INFO -- : [f6a04a97-018d-4033-938f-f64ee5e761e8]   Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1645)
+I, [2026-08-28T12:15:44.767799 #1420]  INFO -- : [f6a04a97-018d-4033-938f-f64ee5e761e8] Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2174)
+I, [2026-08-28T12:15:49.384887 #1420]  INFO -- : [bc411339-3f46-407c-8e9b-61dea0bfad55] Started GET "/admins/sign_up" for 127.0.0.1 at 2026-08-28 12:15:49 -0300
+I, [2026-08-28T12:15:49.386110 #1420]  INFO -- : [bc411339-3f46-407c-8e9b-61dea0bfad55] Processing by Admins::RegistrationsController#new as HTML
+I, [2026-08-28T12:15:49.390407 #1420]  INFO -- : [bc411339-3f46-407c-8e9b-61dea0bfad55] Redirected to http://localhost:3002/admins/sign_in
+I, [2026-08-28T12:15:49.390658 #1420]  INFO -- : [bc411339-3f46-407c-8e9b-61dea0bfad55] Filter chain halted as :check_admin_limit rendered or redirected
+I, [2026-08-28T12:15:49.390804 #1420]  INFO -- : [bc411339-3f46-407c-8e9b-61dea0bfad55] Completed 302 Found in 5ms (ActiveRecord: 0.8ms | Allocations: 591)
+I, [2026-08-28T12:15:49.398470 #1420]  INFO -- : [284a8bc5-99eb-4350-9e41-31abafa8f877] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:15:49 -0300
+I, [2026-08-28T12:15:49.399303 #1420]  INFO -- : [284a8bc5-99eb-4350-9e41-31abafa8f877] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:15:49.405630 #1420]  INFO -- : [284a8bc5-99eb-4350-9e41-31abafa8f877]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1673)
+I, [2026-08-28T12:15:49.407022 #1420]  INFO -- : [284a8bc5-99eb-4350-9e41-31abafa8f877]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2512)
+I, [2026-08-28T12:15:49.407208 #1420]  INFO -- : [284a8bc5-99eb-4350-9e41-31abafa8f877] Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.6ms | Allocations: 3124)
+I, [2026-08-28T12:22:22.058619 #1420]  INFO -- : [f4ba3ede-5a33-4a95-adb5-c5d375155dcc] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:22 -0300
+I, [2026-08-28T12:22:22.060620 #1420]  INFO -- : [f4ba3ede-5a33-4a95-adb5-c5d375155dcc] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:22.066678 #1420]  INFO -- : [f4ba3ede-5a33-4a95-adb5-c5d375155dcc]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1672)
+I, [2026-08-28T12:22:22.068061 #1420]  INFO -- : [f4ba3ede-5a33-4a95-adb5-c5d375155dcc]   Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2525)
+I, [2026-08-28T12:22:22.068302 #1420]  INFO -- : [f4ba3ede-5a33-4a95-adb5-c5d375155dcc] Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3138)
+I, [2026-08-28T12:22:22.572946 #1420]  INFO -- : [7a777fdc-763e-4363-ba6d-7fb457d6ffcf] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:22 -0300
+I, [2026-08-28T12:22:22.574065 #1420]  INFO -- : [7a777fdc-763e-4363-ba6d-7fb457d6ffcf] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:22.576182 #1420]  INFO -- : [7a777fdc-763e-4363-ba6d-7fb457d6ffcf]   Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 489)
+I, [2026-08-28T12:22:22.577755 #1420]  INFO -- : [7a777fdc-763e-4363-ba6d-7fb457d6ffcf]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1286)
+I, [2026-08-28T12:22:22.577994 #1420]  INFO -- : [7a777fdc-763e-4363-ba6d-7fb457d6ffcf] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1594)
+I, [2026-08-28T12:22:23.172246 #1420]  INFO -- : [82910b81-0347-461c-8f97-e75062a485e5] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:23 -0300
+I, [2026-08-28T12:22:23.173117 #1420]  INFO -- : [82910b81-0347-461c-8f97-e75062a485e5] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:23.176241 #1420]  INFO -- : [82910b81-0347-461c-8f97-e75062a485e5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1671)
+I, [2026-08-28T12:22:23.177006 #1420]  INFO -- : [82910b81-0347-461c-8f97-e75062a485e5]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2524)
+I, [2026-08-28T12:22:23.177116 #1420]  INFO -- : [82910b81-0347-461c-8f97-e75062a485e5] Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3128)
+I, [2026-08-28T12:22:29.323823 #1420]  INFO -- : [aaf8ec69-62ad-48bc-9f5c-abc80e239010] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:29 -0300
+I, [2026-08-28T12:22:29.324889 #1420]  INFO -- : [aaf8ec69-62ad-48bc-9f5c-abc80e239010] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:29.327300 #1420]  INFO -- : [aaf8ec69-62ad-48bc-9f5c-abc80e239010]   Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 489)
+I, [2026-08-28T12:22:29.328350 #1420]  INFO -- : [aaf8ec69-62ad-48bc-9f5c-abc80e239010]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1286)
+I, [2026-08-28T12:22:29.328496 #1420]  INFO -- : [aaf8ec69-62ad-48bc-9f5c-abc80e239010] Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1597)
+I, [2026-08-28T12:22:29.789148 #1420]  INFO -- : [955e8e48-46cb-4299-ba0c-98c95d44d680] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:29 -0300
+I, [2026-08-28T12:22:29.789929 #1420]  INFO -- : [955e8e48-46cb-4299-ba0c-98c95d44d680] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:29.793690 #1420]  INFO -- : [955e8e48-46cb-4299-ba0c-98c95d44d680]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1671)
+I, [2026-08-28T12:22:29.794856 #1420]  INFO -- : [955e8e48-46cb-4299-ba0c-98c95d44d680]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2524)
+I, [2026-08-28T12:22:29.795040 #1420]  INFO -- : [955e8e48-46cb-4299-ba0c-98c95d44d680] Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3131)
+I, [2026-08-28T12:22:30.205727 #1420]  INFO -- : [6e8f6255-ffe7-4ae8-9eb0-ce93915465cd] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:30 -0300
+I, [2026-08-28T12:22:30.206546 #1420]  INFO -- : [6e8f6255-ffe7-4ae8-9eb0-ce93915465cd] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:30.208592 #1420]  INFO -- : [6e8f6255-ffe7-4ae8-9eb0-ce93915465cd]   Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 489)
+I, [2026-08-28T12:22:30.210001 #1420]  INFO -- : [6e8f6255-ffe7-4ae8-9eb0-ce93915465cd]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1286)
+I, [2026-08-28T12:22:30.210144 #1420]  INFO -- : [6e8f6255-ffe7-4ae8-9eb0-ce93915465cd] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1621)
+I, [2026-08-28T12:22:30.688495 #1420]  INFO -- : [5f0db1a2-2a48-4197-ae4d-4c4eb5fdd029] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:30 -0300
+I, [2026-08-28T12:22:30.689326 #1420]  INFO -- : [5f0db1a2-2a48-4197-ae4d-4c4eb5fdd029] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:30.692940 #1420]  INFO -- : [5f0db1a2-2a48-4197-ae4d-4c4eb5fdd029]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1671)
+I, [2026-08-28T12:22:30.693875 #1420]  INFO -- : [5f0db1a2-2a48-4197-ae4d-4c4eb5fdd029]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2524)
+I, [2026-08-28T12:22:30.694023 #1420]  INFO -- : [5f0db1a2-2a48-4197-ae4d-4c4eb5fdd029] Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3143)
+I, [2026-08-28T12:22:31.134994 #1420]  INFO -- : [a6f26579-bf0d-4914-8cfc-b2656c37a164] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:31 -0300
+I, [2026-08-28T12:22:31.136987 #1420]  INFO -- : [a6f26579-bf0d-4914-8cfc-b2656c37a164] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:31.138967 #1420]  INFO -- : [a6f26579-bf0d-4914-8cfc-b2656c37a164]   Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 489)
+I, [2026-08-28T12:22:31.142957 #1420]  INFO -- : [a6f26579-bf0d-4914-8cfc-b2656c37a164]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1286)
+I, [2026-08-28T12:22:31.143124 #1420]  INFO -- : [a6f26579-bf0d-4914-8cfc-b2656c37a164] Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 1606)
+I, [2026-08-28T12:22:31.621716 #1420]  INFO -- : [e58dd25c-74fa-431f-bc7a-095abc8afb2c] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:31 -0300
+I, [2026-08-28T12:22:31.622521 #1420]  INFO -- : [e58dd25c-74fa-431f-bc7a-095abc8afb2c] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:31.625450 #1420]  INFO -- : [e58dd25c-74fa-431f-bc7a-095abc8afb2c]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1671)
+I, [2026-08-28T12:22:31.626527 #1420]  INFO -- : [e58dd25c-74fa-431f-bc7a-095abc8afb2c]   Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2524)
+I, [2026-08-28T12:22:31.626686 #1420]  INFO -- : [e58dd25c-74fa-431f-bc7a-095abc8afb2c] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3167)
+I, [2026-08-28T12:22:32.089358 #1420]  INFO -- : [38f485a4-35ad-444b-acb2-78e71460d4c2] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:32 -0300
+I, [2026-08-28T12:22:32.090206 #1420]  INFO -- : [38f485a4-35ad-444b-acb2-78e71460d4c2] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:32.091861 #1420]  INFO -- : [38f485a4-35ad-444b-acb2-78e71460d4c2]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 489)
+I, [2026-08-28T12:22:32.093264 #1420]  INFO -- : [38f485a4-35ad-444b-acb2-78e71460d4c2]   Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1286)
+I, [2026-08-28T12:22:32.093450 #1420]  INFO -- : [38f485a4-35ad-444b-acb2-78e71460d4c2] Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1597)
+I, [2026-08-28T12:22:32.488590 #1420]  INFO -- : [f7732f31-fd71-494f-9098-0885b48f2faf] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:32 -0300
+I, [2026-08-28T12:22:32.489465 #1420]  INFO -- : [f7732f31-fd71-494f-9098-0885b48f2faf] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:32.492782 #1420]  INFO -- : [f7732f31-fd71-494f-9098-0885b48f2faf]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1671)
+I, [2026-08-28T12:22:32.493641 #1420]  INFO -- : [f7732f31-fd71-494f-9098-0885b48f2faf]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2524)
+I, [2026-08-28T12:22:32.493765 #1420]  INFO -- : [f7732f31-fd71-494f-9098-0885b48f2faf] Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3140)
+I, [2026-08-28T12:22:33.039964 #1420]  INFO -- : [f1ec885b-f40b-428e-8ebd-2b4285053dff] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:33 -0300
+I, [2026-08-28T12:22:33.041037 #1420]  INFO -- : [f1ec885b-f40b-428e-8ebd-2b4285053dff] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:33.043062 #1420]  INFO -- : [f1ec885b-f40b-428e-8ebd-2b4285053dff]   Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 489)
+I, [2026-08-28T12:22:33.044869 #1420]  INFO -- : [f1ec885b-f40b-428e-8ebd-2b4285053dff]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1286)
+I, [2026-08-28T12:22:33.045127 #1420]  INFO -- : [f1ec885b-f40b-428e-8ebd-2b4285053dff] Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1597)
+I, [2026-08-28T12:22:33.671834 #1420]  INFO -- : [81316972-dc8a-4e82-bb3a-573991291fd7] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:33 -0300
+I, [2026-08-28T12:22:33.672450 #1420]  INFO -- : [81316972-dc8a-4e82-bb3a-573991291fd7] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:33.675721 #1420]  INFO -- : [81316972-dc8a-4e82-bb3a-573991291fd7]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1671)
+I, [2026-08-28T12:22:33.676942 #1420]  INFO -- : [81316972-dc8a-4e82-bb3a-573991291fd7]   Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2524)
+I, [2026-08-28T12:22:33.677115 #1420]  INFO -- : [81316972-dc8a-4e82-bb3a-573991291fd7] Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3143)
+I, [2026-08-28T12:22:34.003388 #1420]  INFO -- : [fc7e6a08-70de-4577-be02-d22e4a326f65] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:34 -0300
+I, [2026-08-28T12:22:34.004166 #1420]  INFO -- : [fc7e6a08-70de-4577-be02-d22e4a326f65] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:34.005633 #1420]  INFO -- : [fc7e6a08-70de-4577-be02-d22e4a326f65]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 489)
+I, [2026-08-28T12:22:34.006886 #1420]  INFO -- : [fc7e6a08-70de-4577-be02-d22e4a326f65]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1286)
+I, [2026-08-28T12:22:34.007064 #1420]  INFO -- : [fc7e6a08-70de-4577-be02-d22e4a326f65] Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1612)
+I, [2026-08-28T12:22:34.536865 #1420]  INFO -- : [80ee6a28-3943-4b55-b114-aeeedd079b5a] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:34 -0300
+I, [2026-08-28T12:22:34.538404 #1420]  INFO -- : [80ee6a28-3943-4b55-b114-aeeedd079b5a] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:34.541857 #1420]  INFO -- : [80ee6a28-3943-4b55-b114-aeeedd079b5a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1671)
+I, [2026-08-28T12:22:34.542909 #1420]  INFO -- : [80ee6a28-3943-4b55-b114-aeeedd079b5a]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2524)
+I, [2026-08-28T12:22:34.543078 #1420]  INFO -- : [80ee6a28-3943-4b55-b114-aeeedd079b5a] Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3137)
+I, [2026-08-28T12:22:34.872855 #1420]  INFO -- : [41ba93d2-d7f8-4ab8-864a-527efa79cf40] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:34 -0300
+I, [2026-08-28T12:22:34.873790 #1420]  INFO -- : [41ba93d2-d7f8-4ab8-864a-527efa79cf40] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:34.875974 #1420]  INFO -- : [41ba93d2-d7f8-4ab8-864a-527efa79cf40]   Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 489)
+I, [2026-08-28T12:22:34.877596 #1420]  INFO -- : [41ba93d2-d7f8-4ab8-864a-527efa79cf40]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1286)
+I, [2026-08-28T12:22:34.877752 #1420]  INFO -- : [41ba93d2-d7f8-4ab8-864a-527efa79cf40] Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1603)
+I, [2026-08-28T12:22:35.535968 #1420]  INFO -- : [1e17d712-5913-4404-a7e4-7a5d11e8eda5] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:35 -0300
+I, [2026-08-28T12:22:35.536926 #1420]  INFO -- : [1e17d712-5913-4404-a7e4-7a5d11e8eda5] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:35.540443 #1420]  INFO -- : [1e17d712-5913-4404-a7e4-7a5d11e8eda5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1671)
+I, [2026-08-28T12:22:35.542312 #1420]  INFO -- : [1e17d712-5913-4404-a7e4-7a5d11e8eda5]   Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2524)
+I, [2026-08-28T12:22:35.543638 #1420]  INFO -- : [1e17d712-5913-4404-a7e4-7a5d11e8eda5] Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3128)
+I, [2026-08-28T12:22:35.772451 #1420]  INFO -- : [24626e7c-2fae-47eb-bc5d-003239a2cafa] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:35 -0300
+I, [2026-08-28T12:22:35.773476 #1420]  INFO -- : [24626e7c-2fae-47eb-bc5d-003239a2cafa] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:35.775445 #1420]  INFO -- : [24626e7c-2fae-47eb-bc5d-003239a2cafa]   Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 489)
+I, [2026-08-28T12:22:35.776939 #1420]  INFO -- : [24626e7c-2fae-47eb-bc5d-003239a2cafa]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1286)
+I, [2026-08-28T12:22:35.777085 #1420]  INFO -- : [24626e7c-2fae-47eb-bc5d-003239a2cafa] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1603)
+I, [2026-08-28T12:22:36.322480 #1420]  INFO -- : [9bd2a30f-71b8-4754-82e8-cf11efa5cfae] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:36 -0300
+I, [2026-08-28T12:22:36.323281 #1420]  INFO -- : [9bd2a30f-71b8-4754-82e8-cf11efa5cfae] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:36.326750 #1420]  INFO -- : [9bd2a30f-71b8-4754-82e8-cf11efa5cfae]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1671)
+I, [2026-08-28T12:22:36.332256 #1420]  INFO -- : [9bd2a30f-71b8-4754-82e8-cf11efa5cfae]   Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2524)
+I, [2026-08-28T12:22:36.332497 #1420]  INFO -- : [9bd2a30f-71b8-4754-82e8-cf11efa5cfae] Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3136)
+I, [2026-08-28T12:22:36.822602 #1420]  INFO -- : [21571530-591c-442f-a546-4170f42f1ad9] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:36 -0300
+I, [2026-08-28T12:22:36.823495 #1420]  INFO -- : [21571530-591c-442f-a546-4170f42f1ad9] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:36.825245 #1420]  INFO -- : [21571530-591c-442f-a546-4170f42f1ad9]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 489)
+I, [2026-08-28T12:22:36.827905 #1420]  INFO -- : [21571530-591c-442f-a546-4170f42f1ad9]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1286)
+I, [2026-08-28T12:22:36.828072 #1420]  INFO -- : [21571530-591c-442f-a546-4170f42f1ad9] Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 1612)
+I, [2026-08-28T12:22:37.239753 #1420]  INFO -- : [96a730fa-6c40-4c33-bbd7-a314bf82e773] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:37 -0300
+I, [2026-08-28T12:22:37.240732 #1420]  INFO -- : [96a730fa-6c40-4c33-bbd7-a314bf82e773] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:37.245279 #1420]  INFO -- : [96a730fa-6c40-4c33-bbd7-a314bf82e773]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1682)
+I, [2026-08-28T12:22:37.246148 #1420]  INFO -- : [96a730fa-6c40-4c33-bbd7-a314bf82e773]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2535)
+I, [2026-08-28T12:22:37.246275 #1420]  INFO -- : [96a730fa-6c40-4c33-bbd7-a314bf82e773] Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3146)
+I, [2026-08-28T12:22:37.727190 #1420]  INFO -- : [16f1344c-4aa6-43f0-a03a-70a4bb5bfbfd] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:37 -0300
+I, [2026-08-28T12:22:37.728546 #1420]  INFO -- : [16f1344c-4aa6-43f0-a03a-70a4bb5bfbfd] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:37.730306 #1420]  INFO -- : [16f1344c-4aa6-43f0-a03a-70a4bb5bfbfd]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 489)
+I, [2026-08-28T12:22:37.731219 #1420]  INFO -- : [16f1344c-4aa6-43f0-a03a-70a4bb5bfbfd]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1286)
+I, [2026-08-28T12:22:37.731367 #1420]  INFO -- : [16f1344c-4aa6-43f0-a03a-70a4bb5bfbfd] Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1615)
+I, [2026-08-28T12:22:38.173476 #1420]  INFO -- : [81739485-7154-49f1-88a0-6beca4b68bfe] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:38 -0300
+I, [2026-08-28T12:22:38.174408 #1420]  INFO -- : [81739485-7154-49f1-88a0-6beca4b68bfe] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:38.177693 #1420]  INFO -- : [81739485-7154-49f1-88a0-6beca4b68bfe]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1671)
+I, [2026-08-28T12:22:38.179010 #1420]  INFO -- : [81739485-7154-49f1-88a0-6beca4b68bfe]   Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2524)
+I, [2026-08-28T12:22:38.179214 #1420]  INFO -- : [81739485-7154-49f1-88a0-6beca4b68bfe] Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3131)
+I, [2026-08-28T12:22:38.621041 #1420]  INFO -- : [b53a27f8-28e4-474e-92e9-9ff6a9e65a09] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:38 -0300
+I, [2026-08-28T12:22:38.621597 #1420]  INFO -- : [b53a27f8-28e4-474e-92e9-9ff6a9e65a09] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:38.622823 #1420]  INFO -- : [b53a27f8-28e4-474e-92e9-9ff6a9e65a09]   Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 489)
+I, [2026-08-28T12:22:38.623951 #1420]  INFO -- : [b53a27f8-28e4-474e-92e9-9ff6a9e65a09]   Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1286)
+I, [2026-08-28T12:22:38.624076 #1420]  INFO -- : [b53a27f8-28e4-474e-92e9-9ff6a9e65a09] Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1603)
+I, [2026-08-28T12:22:39.040082 #1420]  INFO -- : [f36cc329-fec2-430e-97a8-bafec3282f86] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:39 -0300
+I, [2026-08-28T12:22:39.041235 #1420]  INFO -- : [f36cc329-fec2-430e-97a8-bafec3282f86] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:39.045898 #1420]  INFO -- : [f36cc329-fec2-430e-97a8-bafec3282f86]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1671)
+I, [2026-08-28T12:22:39.046806 #1420]  INFO -- : [f36cc329-fec2-430e-97a8-bafec3282f86]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2524)
+I, [2026-08-28T12:22:39.046940 #1420]  INFO -- : [f36cc329-fec2-430e-97a8-bafec3282f86] Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3140)
+I, [2026-08-28T12:22:39.679557 #1420]  INFO -- : [3ba97191-9a63-4c38-99a4-157cbe1bc306] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:39 -0300
+I, [2026-08-28T12:22:39.680507 #1420]  INFO -- : [3ba97191-9a63-4c38-99a4-157cbe1bc306] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:39.682497 #1420]  INFO -- : [3ba97191-9a63-4c38-99a4-157cbe1bc306]   Rendered pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 489)
+I, [2026-08-28T12:22:39.684367 #1420]  INFO -- : [3ba97191-9a63-4c38-99a4-157cbe1bc306]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1286)
+I, [2026-08-28T12:22:39.684638 #1420]  INFO -- : [3ba97191-9a63-4c38-99a4-157cbe1bc306] Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1606)
+I, [2026-08-28T12:22:40.111541 #1420]  INFO -- : [5a529a10-1c1d-48ae-bf37-c3d5868943c0] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:40 -0300
+I, [2026-08-28T12:22:40.112769 #1420]  INFO -- : [5a529a10-1c1d-48ae-bf37-c3d5868943c0] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:40.117211 #1420]  INFO -- : [5a529a10-1c1d-48ae-bf37-c3d5868943c0]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1671)
+I, [2026-08-28T12:22:40.118574 #1420]  INFO -- : [5a529a10-1c1d-48ae-bf37-c3d5868943c0]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2525)
+I, [2026-08-28T12:22:40.118767 #1420]  INFO -- : [5a529a10-1c1d-48ae-bf37-c3d5868943c0] Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3132)
+I, [2026-08-28T12:22:41.656670 #1420]  INFO -- : [9264fea9-087e-4596-87fa-12439ea863a5] Started GET "/" for 127.0.0.1 at 2026-08-28 12:22:41 -0300
+I, [2026-08-28T12:22:41.657679 #1420]  INFO -- : [9264fea9-087e-4596-87fa-12439ea863a5] Processing by PagesController#home as HTML
+I, [2026-08-28T12:22:41.659776 #1420]  INFO -- : [9264fea9-087e-4596-87fa-12439ea863a5]   Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 489)
+I, [2026-08-28T12:22:41.661980 #1420]  INFO -- : [9264fea9-087e-4596-87fa-12439ea863a5]   Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1286)
+I, [2026-08-28T12:22:41.662132 #1420]  INFO -- : [9264fea9-087e-4596-87fa-12439ea863a5] Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1600)
+I, [2026-08-28T12:22:42.653354 #1420]  INFO -- : [60c6bf30-09d0-416c-bd11-93e02073c193] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:22:42 -0300
+I, [2026-08-28T12:22:42.654854 #1420]  INFO -- : [60c6bf30-09d0-416c-bd11-93e02073c193] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:22:42.658797 #1420]  INFO -- : [60c6bf30-09d0-416c-bd11-93e02073c193]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1671)
+I, [2026-08-28T12:22:42.659853 #1420]  INFO -- : [60c6bf30-09d0-416c-bd11-93e02073c193]   Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2524)
+I, [2026-08-28T12:22:42.660004 #1420]  INFO -- : [60c6bf30-09d0-416c-bd11-93e02073c193] Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3143)
+I, [2026-08-28T12:22:44.435759 #1420]  INFO -- : [e4a44e0f-8c20-43e5-877e-3967405a00e1] Started GET "/users/sign_up" for 127.0.0.1 at 2026-08-28 12:22:44 -0300
+I, [2026-08-28T12:22:44.437693 #1420]  INFO -- : [e4a44e0f-8c20-43e5-877e-3967405a00e1] Processing by Users::RegistrationsController#new as HTML
+I, [2026-08-28T12:22:44.451584 #1420]  INFO -- : [e4a44e0f-8c20-43e5-877e-3967405a00e1]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2394)
+I, [2026-08-28T12:22:44.452656 #1420]  INFO -- : [e4a44e0f-8c20-43e5-877e-3967405a00e1]   Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3318)
+I, [2026-08-28T12:22:44.452926 #1420]  INFO -- : [e4a44e0f-8c20-43e5-877e-3967405a00e1] Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4388)
+I, [2026-08-28T12:23:06.936194 #1420]  INFO -- : [af2d9e0c-8870-4a1d-95f5-1f506e77f8f4] Started POST "/users" for 127.0.0.1 at 2026-08-28 12:23:06 -0300
+I, [2026-08-28T12:23:06.937929 #1420]  INFO -- : [af2d9e0c-8870-4a1d-95f5-1f506e77f8f4] Processing by Users::RegistrationsController#create as TURBO_STREAM
+I, [2026-08-28T12:23:06.938065 #1420]  INFO -- : [af2d9e0c-8870-4a1d-95f5-1f506e77f8f4]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"user@example.com.prod", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Inscrever-se"}
+I, [2026-08-28T12:23:07.196635 #1420]  INFO -- : [af2d9e0c-8870-4a1d-95f5-1f506e77f8f4] Redirected to http://localhost:3002/
+I, [2026-08-28T12:23:07.196724 #1420]  INFO -- : [af2d9e0c-8870-4a1d-95f5-1f506e77f8f4] Completed 303 See Other in 259ms (ActiveRecord: 19.2ms | Allocations: 5278)
+I, [2026-08-28T12:23:07.199301 #1420]  INFO -- : [5b3bc7b6-f776-434c-82b0-734e01c374a2] Started GET "/" for 127.0.0.1 at 2026-08-28 12:23:07 -0300
+I, [2026-08-28T12:23:07.199733 #1420]  INFO -- : [5b3bc7b6-f776-434c-82b0-734e01c374a2] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:23:07.203694 #1420]  INFO -- : [5b3bc7b6-f776-434c-82b0-734e01c374a2]   Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 761)
+I, [2026-08-28T12:23:07.204667 #1420]  INFO -- : [5b3bc7b6-f776-434c-82b0-734e01c374a2]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1565)
+I, [2026-08-28T12:23:07.204809 #1420]  INFO -- : [5b3bc7b6-f776-434c-82b0-734e01c374a2] Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.8ms | Allocations: 1916)
+I, [2026-08-28T12:23:08.719849 #1420]  INFO -- : [29289859-3ee6-41f8-8e70-c835d4a1621a] Started GET "/pages/profile" for 127.0.0.1 at 2026-08-28 12:23:08 -0300
+I, [2026-08-28T12:23:08.721425 #1420]  INFO -- : [29289859-3ee6-41f8-8e70-c835d4a1621a] Processing by PagesController#users as HTML
+I, [2026-08-28T12:23:08.726791 #1420]  INFO -- : [29289859-3ee6-41f8-8e70-c835d4a1621a]   Rendered pages/users.html.erb within layouts/application (Duration: 0.5ms | Allocations: 265)
+I, [2026-08-28T12:23:08.727622 #1420]  INFO -- : [29289859-3ee6-41f8-8e70-c835d4a1621a]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1024)
+I, [2026-08-28T12:23:08.727782 #1420]  INFO -- : [29289859-3ee6-41f8-8e70-c835d4a1621a] Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 1766)
+I, [2026-08-28T12:23:10.507287 #1420]  INFO -- : [7069790c-1d68-4529-9f42-384a23152681] Started DELETE "/users/sign_out?_method=delete" for 127.0.0.1 at 2026-08-28 12:23:10 -0300
+I, [2026-08-28T12:23:10.508466 #1420]  INFO -- : [7069790c-1d68-4529-9f42-384a23152681] Processing by Users::SessionsController#destroy as TURBO_STREAM
+I, [2026-08-28T12:23:10.514490 #1420]  INFO -- : [7069790c-1d68-4529-9f42-384a23152681] Redirected to http://localhost:3002/
+I, [2026-08-28T12:23:10.514712 #1420]  INFO -- : [7069790c-1d68-4529-9f42-384a23152681] Completed 303 See Other in 6ms (ActiveRecord: 1.0ms | Allocations: 1030)
+I, [2026-08-28T12:23:10.517818 #1420]  INFO -- : [a5c9771a-9b41-43c1-8c05-29897dc61dd1] Started GET "/" for 127.0.0.1 at 2026-08-28 12:23:10 -0300
+I, [2026-08-28T12:23:10.518441 #1420]  INFO -- : [a5c9771a-9b41-43c1-8c05-29897dc61dd1] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:23:10.519612 #1420]  INFO -- : [a5c9771a-9b41-43c1-8c05-29897dc61dd1]   Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 492)
+I, [2026-08-28T12:23:10.520788 #1420]  INFO -- : [a5c9771a-9b41-43c1-8c05-29897dc61dd1]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1296)
+I, [2026-08-28T12:23:10.520923 #1420]  INFO -- : [a5c9771a-9b41-43c1-8c05-29897dc61dd1] Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 1628)
+I, [2026-08-28T12:23:11.025707 #1420]  INFO -- : [91ad1394-cf06-4b30-8953-f3071daed2d6] Started GET "/users/sign_in" for 127.0.0.1 at 2026-08-28 12:23:11 -0300
+I, [2026-08-28T12:23:11.026640 #1420]  INFO -- : [91ad1394-cf06-4b30-8953-f3071daed2d6] Processing by Users::SessionsController#new as HTML
+I, [2026-08-28T12:23:11.030761 #1420]  INFO -- : [91ad1394-cf06-4b30-8953-f3071daed2d6]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1671)
+I, [2026-08-28T12:23:11.032037 #1420]  INFO -- : [91ad1394-cf06-4b30-8953-f3071daed2d6]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2524)
+I, [2026-08-28T12:23:11.032224 #1420]  INFO -- : [91ad1394-cf06-4b30-8953-f3071daed2d6] Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3163)
+I, [2026-08-28T12:23:13.021384 #1420]  INFO -- : [66b515ca-cfd1-4b71-ad37-f7b4ea9f852b] Started GET "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:23:13 -0300
+I, [2026-08-28T12:23:13.022382 #1420]  INFO -- : [66b515ca-cfd1-4b71-ad37-f7b4ea9f852b] Processing by Admins::SessionsController#new as HTML
+I, [2026-08-28T12:23:13.026408 #1420]  INFO -- : [66b515ca-cfd1-4b71-ad37-f7b4ea9f852b]   Rendered admins/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1671)
+I, [2026-08-28T12:23:13.027186 #1420]  INFO -- : [66b515ca-cfd1-4b71-ad37-f7b4ea9f852b]   Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2510)
+I, [2026-08-28T12:23:13.027311 #1420]  INFO -- : [66b515ca-cfd1-4b71-ad37-f7b4ea9f852b] Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.7ms | Allocations: 3126)
+I, [2026-08-28T12:23:19.404078 #1420]  INFO -- : [a6b3e44f-67c6-43ce-b1f9-8af437232150] Started POST "/admins/sign_in" for 127.0.0.1 at 2026-08-28 12:23:19 -0300
+I, [2026-08-28T12:23:19.406457 #1420]  INFO -- : [a6b3e44f-67c6-43ce-b1f9-8af437232150] Processing by Admins::SessionsController#create as TURBO_STREAM
+I, [2026-08-28T12:23:19.406725 #1420]  INFO -- : [a6b3e44f-67c6-43ce-b1f9-8af437232150]   Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@example.com.prod", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+I, [2026-08-28T12:23:19.626884 #1420]  INFO -- : [a6b3e44f-67c6-43ce-b1f9-8af437232150] Redirected to http://localhost:3002/
+I, [2026-08-28T12:23:19.627043 #1420]  INFO -- : [a6b3e44f-67c6-43ce-b1f9-8af437232150] Completed 303 See Other in 220ms (ActiveRecord: 0.6ms | Allocations: 990)
+I, [2026-08-28T12:23:19.630087 #1420]  INFO -- : [afac20e4-dabc-40f8-8559-d5c67c64bba5] Started GET "/" for 127.0.0.1 at 2026-08-28 12:23:19 -0300
+I, [2026-08-28T12:23:19.630528 #1420]  INFO -- : [afac20e4-dabc-40f8-8559-d5c67c64bba5] Processing by PagesController#home as TURBO_STREAM
+I, [2026-08-28T12:23:19.633878 #1420]  INFO -- : [afac20e4-dabc-40f8-8559-d5c67c64bba5]   Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 663)
+I, [2026-08-28T12:23:19.634867 #1420]  INFO -- : [afac20e4-dabc-40f8-8559-d5c67c64bba5]   Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1502)
+I, [2026-08-28T12:23:19.634998 #1420]  INFO -- : [afac20e4-dabc-40f8-8559-d5c67c64bba5] Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.5ms | Allocations: 1846)
+I, [2026-08-28T12:23:20.492398 #1420]  INFO -- : [2418aa2e-f80e-4e35-8293-8d6868f55ed4] Started GET "/admin/dashboard" for 127.0.0.1 at 2026-08-28 12:23:20 -0300
+I, [2026-08-28T12:23:20.493259 #1420]  INFO -- : [2418aa2e-f80e-4e35-8293-8d6868f55ed4] Processing by PagesController#admin as HTML
+I, [2026-08-28T12:23:20.499610 #1420]  INFO -- : [2418aa2e-f80e-4e35-8293-8d6868f55ed4]   Rendered pages/admin.html.erb within layouts/application (Duration: 2.4ms | Allocations: 760)
+I, [2026-08-28T12:23:20.500453 #1420]  INFO -- : [2418aa2e-f80e-4e35-8293-8d6868f55ed4]   Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1648)
+I, [2026-08-28T12:23:20.500576 #1420]  INFO -- : [2418aa2e-f80e-4e35-8293-8d6868f55ed4] Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 1.6ms | Allocations: 2327)

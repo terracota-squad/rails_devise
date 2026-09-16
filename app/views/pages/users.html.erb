@@ -1,0 +1,15 @@
+<% content_for :title, t('titles.profile') %>
+<h1 class="default-heading"><%= t('titles.profile') %></h1>
+<div class="d-flex flex-column align-items-center">
+  <% if current_user %>
+    <p class="fs-3"><%= t('messages.welcome_email', email: current_user.email) %></p>
+    <%= link_to t('links.edit_registration'), edit_user_registration_path %>
+    <%= link_to t('links.sign_out'), destroy_user_session_path, method: :delete, data: { turbo_method: :delete } %>
+  <% elsif current_admin %>
+    <p class="fs-3"><%= t('messages.welcome_email', email: current_admin.email) %></p>
+    <p class="fs-4"><%= t('messages.admin_access_text') %></p>
+    <%= link_to t('titles.dashboard'), admin_dashboard_path, class:"btn btn-primary btn-lg mb-3", role:"button" %>
+    <%= link_to t('links.edit_registration'), edit_admin_registration_path %>
+    <%= link_to t('links.sign_out'), destroy_admin_session_path, method: :delete, data: { turbo_method: :delete } %>
+  <% end %>
+</div>

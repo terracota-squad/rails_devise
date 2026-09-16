@@ -1,0 +1,14 @@
+<h1 class="default-heading"><%= t('titles.home') %></h1>
+<div class="d-flex flex-column align-items-center">
+  <% if user_signed_in? || admin_signed_in? %>
+    <%= link_to t('titles.profile'), pages_profile_path %>
+  <% else %>
+    <%= link_to t('links.sign_in'), new_user_session_path %>
+  <% end %>
+  <div class="d-flex flex-column align-items-center text-muted mt-5">
+    <span class="text-nowrap"><%= t('messages.created_with') %></span>
+    <div class="mw-100 img-fluid">
+      <%= File.read(Rails.root.join('app', 'assets', 'images', 'Ruby_on_Rails.svg')).html_safe %>
+    </div>
+  </div>
+</div>

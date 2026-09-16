@@ -1,0 +1,48 @@
+<% content_for :title, t('.title', resource: resource_class.model_name.human) %>
+<h2 class="form-heading"><%= t('.title', resource: resource_class.model_name.human) %></h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <%= render "admins/shared/error_messages", resource: resource %>
+
+    <div class="mb-3 w-50">
+      <%= f.label :email, class: "form-label" %>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control border-dark-subtle" %>
+    </div>
+
+    <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+    <% end %>
+
+    <div class="mb-3 w-50">
+      <%= f.label :password, class: "form-label" %> <i>(<%= t('.leave_blank_if_you_don_t_want_to_change_it')%>)</i>
+      <%= f.password_field :password, autocomplete: "new-password", class:"form-control border-dark-subtle" %></p>
+      <% if @minimum_password_length %>
+        <em><%= t('admins.shared.minimum_password_length', count: @minimum_password_length) %></em>
+      <% end %>
+    </div>
+
+    <div class="mb-3 w-50">
+      <%= f.label :password_confirmation, class: "form-label" %>
+      <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"form-control border-dark-subtle" %>
+    </div>
+
+    <div class="mb-3 w-50">
+      <%= f.label :current_password, class: "form-label" %> <i>(<%= t('.we_need_your_current_password_to_confirm_your_changes')%>)</i>
+      <%= f.password_field :current_password, autocomplete: "current-password", class:"form-control border-dark-subtle" %>
+    </div>
+
+    <div class="mb-3 d-flex align-items-center justify-content-center">
+      <%= f.submit t('.update'), class:"btn btn-lg btn-primary" %>
+    </div>
+
+    <h3><%= t('.cancel_my_account') %></h3>
+
+    <div class="mb-3 d-flex flex-column align-items-center"><%= t('.unhappy') %>
+      <%= button_to t('.cancel_my_account'), registration_path(resource_name), data: { confirm: t('.are_you_sure'), turbo_confirm: t('.are_you_sure') }, method: :delete, class:"btn btn-lg btn-danger" %>
+    </div>
+
+    <%= link_to t('admins.shared.links.back'), :back %>
+
+  </div>
+<% end %>

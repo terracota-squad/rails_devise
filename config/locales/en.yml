@@ -1,0 +1,119 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  locale_name: "English"
+  links:
+    sign_in: "Sign in"
+    sign_out: "Sign out"
+    sign_in_as_admin: "Sign in as Admin"
+    edit_registration: "Edit registration"
+  nav_links:
+    sign_in: "Sign in"
+    home: "Home"
+    profile: "Profile"
+    dashboard: "Dashboard"
+  titles:
+    home: "Home Page"
+    profile: "Profile Page"
+    dashboard: "Admin Dashboard"
+  messages:
+    created_with: "Created with"
+    admin_access_text: "The admin can also access this page."
+    welcome_email: "Welcome, %{email}!"
+    no_users: "No users registered!"
+  users_table:
+    email: "Email"
+    status: "Status"
+    action: "Action"
+    banned: "Banned"
+    active: "Active"
+    ban: "Ban"
+    unban: "Unban"
+  users: &resource_translations
+    mailer:
+      reset_password_instructions:
+        action: "Change my password"
+        greeting: "Hello %{recipient}!"
+        instruction: "Someone has requested a link to change your password. You can do this through the link below."
+        instruction_2: "If you didn't request this, please ignore this email."
+        instruction_3: "Your password won't change until you access the link above and create a new one."
+        subject: "Reset password instructions"
+    passwords:
+      edit:
+        change_my_password: "Change my password"
+        change_your_password: "Change your password"
+        confirm_new_password: "Confirm new password"
+        new_password: "New password"
+      new:
+        forgot_your_password: "Forgot your password?"
+        send_me_reset_password_instructions: "Send me reset password instructions"
+    registrations:
+      edit:
+        are_you_sure: "Are you sure?"
+        cancel_my_account: "Cancel my account"
+        leave_blank_if_you_don_t_want_to_change_it: "leave blank if you don't want to change it"
+        title: "Edit %{resource}"
+        unhappy: "Unhappy?"
+        update: "Update"
+        we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
+      new:
+        sign_up: "Sign up"
+        title: "Sign up %{resource}"
+        limit_reached: "The maximum number of %{resource} has been reached."
+    sessions:
+      new:
+        sign_in: "Log in"
+        title: "%{resource} Log in"
+    shared:
+      links:
+        back: "Back"
+        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
+        forgot_your_password: "Forgot your password?"
+        sign_in: "Log in"
+        sign_in_with_provider: "Sign in with %{provider}"
+        sign_up: "Sign up"
+      minimum_password_length:
+        one: "%{count} character minimum"
+        other: "%{count} characters minimum"
+  admins:
+    <<: *resource_translations
+  activerecord:
+    errors:
+      models:
+        admin:
+          attributes:
+            base:
+              limit_reached:
+                one: "Registration is closed. The maximum limit of %{count} admin has been reached."
+                other: "Registration is closed. The maximum limit of %{count} admins has been reached."

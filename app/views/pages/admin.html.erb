@@ -1,0 +1,40 @@
+<% content_for :title, t('titles.dashboard') %>
+<h1 class="default-heading"><%= t('titles.dashboard')%></h1>
+<% if @users.count > 0 %>
+  <table class="mb-4 table table-hover w-75 mx-auto">
+    <thead class="table-dark">
+      <tr>
+        <th><%= t('users_table.email') %></th>
+        <th><%= t('users_table.status') %></th>
+        <th><%= t('users_table.action') %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td class="col-6"><%= user.email %></td>
+          <td class="col-3">
+            <span class="<%= user.access_locked? ? 'text-danger' : 'text-success' %>">
+              <%= user.access_locked? ? t('users_table.banned') : t('users_table.active') %>
+            </span>
+          </td>
+          <td class="col-3">
+            <% if user.access_locked? %>
+              <%= button_to t('users_table.unban'), pages_unban_user_path(user), class: "btn btn-success", method: :post %>
+            <% else %>
+              <%= button_to t('users_table.ban'), pages_ban_user_path(user), class: "btn btn-danger", method: :post %>
+            <% end %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% else %>
+  <br>
+  <p class="fw-bold text-danger text-center"><%= t('messages.no_users') %></p>
+  <br>
+<% end %>
+<div class="d-flex flex-column align-items-center">
+  <%= link_to t('links.edit_registration'), edit_admin_registration_path %>
+  <%= link_to t('links.sign_out'), destroy_admin_session_path, method: :delete, data: { turbo_method: :delete } %>
+</div>

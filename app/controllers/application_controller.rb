@@ -2,12 +2,10 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
 
   def set_locale
-    requested_locale = params[:locale]&.downcase
+    requested_locale = params[:locale]
+    matched_locale = locale_valid?(requested_locale) if requested_locale.present?
 
-    if requested_locale.present? && locale_valid?(requested_locale)
-      matched_locale = I18n.available_locales.find { |l| l.to_s.downcase == requested_locale }
-      cookies[:locale] = matched_locale.to_s
-    end
+    cookies[:locale] = matched_locale.to_s if matched_locale
 
     I18n.locale = extract_locale
   end
@@ -15,17 +13,13 @@ class ApplicationController < ActionController::Base
   private
 
   def extract_locale
-    current_cookie = cookies[:locale]&.downcase
+    current_cookie = cookies[:locale]
+    matched_locale = locale_valid?(current_cookie) if current_cookie.present?
 
-    if current_cookie.present? && locale_valid?(current_cookie)
-      I18n.available_locales.find { |l| l.to_s.downcase == current_cookie }
-    else
-      I18n.default_locale
-    end
+    matched_locale || I18n.default_locale
   end
 
   def locale_valid?(locale)
-    supported_locales = I18n.available_locales.map { |l| l.to_s.downcase }
-    supported_locales.include?(locale.to_s.downcase)
+    I18n.available_locales.find { |l| l.to_s.casecmp?(locale.to_s) }
   end
 end
